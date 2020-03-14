@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'MSSB';
+  font-family: 'Montserrat SemiBold';
   src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -133,7 +133,7 @@ color: #363030; }
 .social {border:0;}
 .social:hover {opacity:.5;border:0;}
 
-.footer {background-image:url(../images/logo-small.png);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000; font-family:"MSSB"}
+.footer {background-image:url(../images/logo-small.png);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000; font-family:"Montserrat SemiBold"}
 .footer a{color:#000;border:0;}
 .footer a:hover{opacity:.5;border:0;}
 
@@ -145,7 +145,7 @@ color: #363030; }
   padding:2rem 0;
   margin:0 auto;
   opacity:0.9; 
-  font-family: "MSSB";
+  font-family: "Montserrat SemiBold";
   font-size: 20;
 }
 
@@ -174,7 +174,7 @@ margin-bottom:16rem
 
 h1 {
 font-weight: 500; 
-font-family: "MSSB";
+font-family: "Montserrat SemiBold";
 color:#000;
 letter-spacing: -.15rem;
 padding-bottom: 0;
@@ -194,7 +194,7 @@ h2, h4, h5, h6 {
 margin-top: 0;
 margin-bottom: 2.5rem;
 font-weight: 700; 
-font-family: "MSSB";
+font-family: "Montserrat SemiBold";
 color:#000;
 }
 
@@ -221,7 +221,7 @@ font-family: "Montserrat";
 }
 
 .heading {
-  font-family: "MSSB";
+  font-family: "Montserrat SemiBold";
   font-weight: 700px;
   font-size: 1em;
   margin-bottom: 20px;
