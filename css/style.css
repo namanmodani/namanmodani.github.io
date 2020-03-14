@@ -147,6 +147,7 @@ color: #363030; }
   opacity:0.9; 
   font-family: "Montserrat SemiBold";
   font-size: 20;
+  text-align: center;
 }
 
 #tooltip {
