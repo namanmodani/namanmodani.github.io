@@ -209,13 +209,15 @@ h6 { font-size: 1.5rem; line-height: 1.6;}
   font-family: "Montserrat SemiBold", "Poppins";
   font-size: 1.6rem;
   margin-bottom: 20px;
+  color: black;
 }
 
 p {
   margin-top: 0; 
   padding-top:0;
   font-family: "Montserrat", "Poppins";
-  font-size: 1.45rem
+  font-size: 1.45rem;
+  color: #606060;
   }
 
 @media (min-width: 550px) {
@@ -440,3 +442,7 @@ margin-left:0;}
 content: "";
 display: table;
 clear: both; }
+
+span{
+  color:black;
+}
