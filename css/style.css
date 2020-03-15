@@ -133,7 +133,7 @@ color: #363030; }
 .social {border:0;}
 .social:hover {opacity:.5;border:0;}
 
-.footer {background-image:url(../images/logo-small.png);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000; font-family:"Montserrat SemiBold"}
+.footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000; font-family:"Montserrat SemiBold"}
 .footer a{color:#000;border:0;}
 .footer a:hover{opacity:.5;border:0;}
 
@@ -169,8 +169,8 @@ margin-bottom:16rem
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-  .logo{background:url(../images/logo2x.png) no-repeat;background-size:67px 69px;} 
-  .footer{background-image:url(../images/logo-small2x.png); background-size:31px 33px;}
+  .logo{background:url(https://image.flaticon.com/icons/svg/0/85.svg) no-repeat;background-size:67px 69px;} 
+  .footer{background-image:url(https://image.flaticon.com/icons/svg/0/85.svg); background-size:31px 33px;}
 }
 
 h1 {
@@ -199,7 +199,7 @@ font-family: "Montserrat SemiBold";
 color:#000;
 }
 
-h1 { font-size: 4rem; line-height: 1.1;}
+h1 { font-size: 6.2rem; line-height: 1.1; margin-top: 21.5rem;}
 h2 { font-size: 2.4rem; line-height: 1.2;}
 h3 { font-size: 2.4rem; line-height: 1.3;}
 h4 { font-size: 2.4rem; line-height: 1.35;}
@@ -214,7 +214,7 @@ h4 { font-size: 3.0rem; }
 h5 { font-size: 2.4rem; }
 h6 { font-size: 1.5rem; }
 }
-#subtitle {font-size: 3rem}
+#subtitle {font-size: 1.8rem}
 
 p {
 margin-top: 0; 
