@@ -112,7 +112,7 @@ body {
 font-size: 1.9em; 
 line-height: 1.6;
 font-weight: 300;
-font-family: "Montserrat";
+font-family: "Montserrat", "Poppins";
 background-color: white;
 color: #363030; }
 
@@ -145,7 +145,7 @@ color: #363030; }
   padding:2rem 0;
   margin:0 auto;
   opacity:0.9; 
-  font-family: "Montserrat SemiBold";
+  font-family: "Montserrat SemiBold", "Poppins";
   font-size: 20;
   text-align: center;
 }
@@ -161,7 +161,7 @@ font-weight:400;
 }
 
 #subtitle {
-font-family: "Montserrat";
+font-family: "Montserrat", "Poppins";
 font-size: 1.8rem;
 margin-bottom:16rem
 }
@@ -175,7 +175,7 @@ margin-bottom:16rem
 
 h1 {
 font-weight: 500; 
-font-family: "Montserrat SemiBold";
+font-family: "Montserrat SemiBold", "Poppins";
 color:#000;
 letter-spacing: -.15rem;
 padding-bottom: 0;
@@ -186,7 +186,7 @@ h3 {
 margin-top: 0;
 margin-bottom: 12rem;
 font-weight: 500; 
-font-family: "Montserrat";
+font-family: "Montserrat", "Poppins";
 color:#000;
 letter-spacing:-.05rem;
 }
@@ -195,7 +195,7 @@ h2, h4, h5, h6 {
 margin-top: 0;
 margin-bottom: 2.5rem;
 font-weight: 700; 
-font-family: "Montserrat SemiBold";
+font-family: "Montserrat SemiBold", "Poppins";
 color:#000;
 }
 
@@ -219,19 +219,19 @@ h6 { font-size: 1.5rem; }
 p {
 margin-top: 0; 
 padding-top:0;
-font-family: "Montserrat";
+font-family: "Montserrat", "Poppins";
 font-size: 1.65rem
 }
 
 .heading {
-  font-family: "Montserrat SemiBold";
+  font-family: "Montserrat SemiBold", "Poppins";
   font-size: 1em;
   margin-bottom: 20px;
 }
 
 #communication{
 margin-top: 0;
-font-family: "Montserrat";
+font-family: "Montserrat", "Poppins";
 font-size: 15;
 }
 
