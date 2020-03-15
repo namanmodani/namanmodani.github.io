@@ -142,11 +142,11 @@ color: #363030; }
   width:115px;
   height:31px; 
   background-size:115px 31px;
-  padding:2rem 0;
+  padding:1.7rem 0;
   margin:0 auto;
   opacity:0.9; 
   font-family: "Montserrat SemiBold", "Poppins";
-  font-size: 20;
+  font-size: 1.8rem;
   text-align: center;
 }
 
@@ -174,7 +174,6 @@ margin-bottom:16rem
 }
 
 h1 {
-font-weight: 500; 
 font-family: "Montserrat SemiBold", "Poppins";
 color:#000;
 letter-spacing: -.15rem;
