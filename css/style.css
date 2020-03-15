@@ -220,11 +220,11 @@ p {
 margin-top: 0; 
 padding-top:0;
 font-family: "Montserrat";
+font-size: 1.65rem
 }
 
 .heading {
   font-family: "Montserrat SemiBold";
-  font-weight: 700px;
   font-size: 1em;
   margin-bottom: 20px;
 }
