@@ -445,4 +445,10 @@ clear: both; }
 
 span{
   color:black;
+  font-family: "Montserrat SemiBold";
+}
+
+.dark-mode {
+  background-color: #23272a;
+  color: red;
 }
