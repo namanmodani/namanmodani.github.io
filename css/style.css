@@ -166,7 +166,7 @@ font-weight:400;
 }
 
 #subtitle {
-font-family: "Montserrat ", "Poppins";
+font-family: "Rubik";
 font-size: 1.8rem;
 margin-bottom:16rem
 }
@@ -222,7 +222,7 @@ p {
   padding-top:0;
   font-family: "Montserrat", "Poppins";
   font-size: 1.45rem;
-  color: #404040;
+  color: #202020;
   }
 
 @media (min-width: 550px) {
@@ -453,4 +453,9 @@ span{
   font-family: "Montserrat SemiBold";
 }
 
-
+#me {
+  height:205px;
+  margin:auto 0px 40px auto;
+  border-radius: 35px;
+  align-self: center;
+}
