@@ -21,6 +21,11 @@
   font-style: normal;
 }
 
+@font-face{
+  src: url('../fonts/Rubik/Rubik-Regular.ttf')  format('truetype');
+  font-family: 'Rubik';
+
+} 
 
 .container {
 position: relative;
@@ -112,9 +117,9 @@ body {
 font-size: 1.9em; 
 line-height: 1.6;
 font-weight: 300;
-font-family: "Montserrat", "Poppins";
+font-family: "Rubik", "Poppins";
 background-color: white;
-color: #363030; }
+color: black; }
 
 
 .logo{background:url(https://image.flaticon.com/icons/svg/0/85.svg) no-repeat; width:67px; height:69px;margin-top:8%;}
@@ -133,7 +138,7 @@ color: #363030; }
 .social {border:0;}
 .social:hover {opacity:.5;border:0;}
 
-.footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000; font-family:"Montserrat SemiBold"}
+.footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:#000; font-family:"Rubik"}
 .footer a{color:#000;border:0;}
 .footer a:hover{opacity:.5;border:0;}
 
@@ -145,7 +150,7 @@ color: #363030; }
   padding:1.7rem 0;
   margin:0 auto;
   opacity:0.9; 
-  font-family: "Montserrat SemiBold", "Poppins";
+  font-family: "Rubik", "Poppins";
   font-size: 1.8rem;
   text-align: center;
 }
@@ -161,7 +166,7 @@ font-weight:400;
 }
 
 #subtitle {
-font-family: "Montserrat", "Poppins";
+font-family: "Rubik ", "Poppins";
 font-size: 1.8rem;
 margin-bottom:16rem
 }
@@ -174,7 +179,7 @@ margin-bottom:16rem
 }
 
 h1 {
-font-family: "Montserrat SemiBold", "Poppins";
+font-family: "Rubik", "Poppins";
 color:#000;
 letter-spacing: -.15rem;
 padding-bottom: 0;
@@ -185,7 +190,7 @@ h3 {
 margin-top: 0;
 margin-bottom: 12rem;
 font-weight: 500; 
-font-family: "Montserrat", "Poppins";
+font-family: "Rubik", "Poppins";
 color:#000;
 letter-spacing:-.05rem;
 }
@@ -194,7 +199,7 @@ h2, h4, h5, h6 {
 margin-top: 0;
 margin-bottom: 2.6rem;
 font-weight: 700; 
-font-family: "Montserrat SemiBold", "Poppins";
+font-family: "Rubik", "Poppins";
 color:#000;
 }
 
@@ -206,7 +211,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;}
 h6 { font-size: 1.5rem; line-height: 1.6;}
 
 .heading {
-  font-family: "Montserrat SemiBold", "Poppins";
+  font-family: "Rubik", "Poppins";
   font-size: 1.6rem;
   margin-bottom: 20px;
   color: black;
@@ -215,7 +220,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;}
 p {
   margin-top: 0; 
   padding-top:0;
-  font-family: "Montserrat", "Poppins";
+  font-family: "Rubik", "Poppins";
   font-size: 1.45rem;
   color: #606060;
   }
@@ -235,7 +240,7 @@ p {font-size: 1.75rem}
 
 #communication{
 margin-top: 0;
-font-family: "Montserrat", "Poppins";
+font-family: "Rubik", "Poppins";
 font-size: 15;
 }
 
@@ -445,10 +450,7 @@ clear: both; }
 
 span{
   color:black;
-  font-family: "Montserrat SemiBold";
+  font-family: "Rubik";
 }
 
-.dark-mode {
-  background-color: #23272a;
-  color: red;
-}
+
