@@ -150,7 +150,7 @@ color: white; }
 .social {border:0;}
 .social:hover {opacity:.5;border:0;}
 
-.footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:18px;color:white; font-family:"CircularStdBook"}
+.footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:white; font-family:"CircularStdBook"}
 .footer a{color: white;border:0;}
 .footer a:hover{opacity:.5;border:0;}
 
@@ -259,6 +259,7 @@ h6 { font-size: 1.5rem; }
 #me{height: 465px}
 .heading{font-size: 1em;}
 p {font-size: 2.05rem}
+.footer{font-size: 18px;}
 }
 
 
@@ -479,6 +480,8 @@ span{
    font-family: "CircularStd";
 
 }
+
+
 
 background: linear-gradient(96deg, #ff6a00, #ff20a4);
 background: linear-gradient(96deg, #f8ff00, #ff9300);
