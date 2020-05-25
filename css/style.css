@@ -41,6 +41,13 @@
   font-style: normal;
 } 
 
+@font-face{
+  src: url('../fonts/CircularStd/CircularStd-Black.ttf')  format('truetype');
+  font-family: 'CircularStdBlack';
+  font-style: normal;
+} 
+
+
 
 .container {
 position: relative;
@@ -205,21 +212,21 @@ font-family: "Montserrat SemiBold", "Poppins";
 background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-letter-spacing: -.5rem;
+letter-spacing: -.25rem;
 padding-bottom: 0;
-margin-bottom:0
+margin-bottom:15px
 }
 
 
 h2{
 margin-top: 0;
 margin-bottom: 2.6rem; 
-font-family: "CircularStdBold", "Poppins";
-letter-spacing: rem;
+font-family: "Montserrat SemiBold", "Poppins";
+letter-spacing: -.1rem;
 color: white;
 }
 
-h1 { font-size: 7.75rem; line-height: 1.1; margin-top: 21.5rem;}
+h1 { font-size: 8.35rem; line-height: 1.05; margin-top: 21.5rem;}
 h2 { font-size: 2.6rem; line-height: 1.2;}
 h3 { font-size: 2.4rem; line-height: 1.3;}
 h4 { font-size: 2.4rem; line-height: 1.35;}
