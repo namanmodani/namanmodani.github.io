@@ -1,319 +1,345 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+/* Fonts */
 
-<script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-    
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-    
-          // Store hash
-          var hash = this.hash;
-    
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-    
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-</script>
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
-  <meta charset="utf-8">
-  <title>Naman Modani</title>
-  <meta name="author" content="Naman Modani">
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Rubik/Rubik-Regular.ttf')  format('truetype');
+  font-family: 'Rubik';
+} 
 
+@font-face{
+  src: url('../fonts/CircularStd/CircularStd-Bold.otf')  format('opentype');
+  font-family: 'CircularStdBold';
+  font-style: normal;
+} 
 
-  <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/0/85.svg">
+@font-face{
+  src: url('../fonts/CircularStd/CircularStd-Bold.ttf')  format('truetype');
+  font-family: 'CircularStdBold';
+  font-style: normal;
+} 
 
-</head>
-<body>
-	<a name = "top"></a>
-  <div class="container">
-    <div class="row">
-      <div class="logo" title="Naman Modani">
-    </div>
-  </div>  
-  <div class="row headline">
-    
-    <div class="nine columns">
-      
-      <h1>Naman Modani</h1> 
-      
+@font-face{
+  src: url('../fonts/CircularStd/CircularStd-Book.ttf')  format('truetype');
+  font-family: 'CircularStdBook';
+  font-style: normal;
+} 
 
-      <p id = "subtitle"> Student & Innovator | Machine-Learning Enthusiast </p>
-
-    </div>
-  </div>
-  <div class="row"><hr></div>
-
-    <div class="row">
-      <div class="six columns">
-        <div class="row">
-        <h2> 👋 Hello, I'm Naman.</h2>
-        </div>
-
-        <img class="rounded" src="pp.jpg" id="me">
- </div>    
-     
-
-      <div class="six columns">
-<p>  I'm a high school student at <span> Delhi Public School, Gurgaon </span> and a tech enthusiast. My primary interests include exploring data science and blockchain. 
-        </p>
-        <p> 
-          I love math and logical reasoning, and I enjoy participating in open-source competitions like Google Code-in and Hacktoberfest.
-          </p>
-        <p>
-        I thoroughly enjoy serving the unprivileged sections of society, and I've taken part in multiple projects at the confluence of tech and social entrepreneurship.
-      	</p>
-
-        <p>I'm also into debate, quizzing and I enjoy participating in Model UN conferences. 
-     <p> Here's my <a href = "Résumé.pdf" target = "_blank"><span>résumé</span></a> and my <a href = "Awards.pdf" target = "_blank"><span>school award list</span></a>. </p>
-<p> Quick Links: <span><a href = "#edu">Education</a> | <a href = "#exp">Experience</a> | <a href = "#cert">Certifications</a> | <a href = "#awards">Awards and Honours</a> | <a href = "#volun">Volunteer Experience</a> | <a href = "#proj">Projects</a> | <a href = "#cont">Contact</a> </span> </p>
-
-          </div>
-    </div>
-
-	
-    <div class="row" style="margin-top:10rem"><a name="edu"><hr></a></div>
-    <div class="row">
-
-    <div class="row">
-      <div class="twelve columns">
-        <div class="row">
-        <h2><b> Education </b></h2>
-        <p class="heading"> > Delhi Public School, Gurgaon // PCM + CS / 2013-2021 </p>
-        <p>All India Secondary School Examination: <span>97.8%</span></p>
-        <p>
-          I'm a grade XII student, pursuing Physics, Chemistry and Math. I currently serve as the Head Boy of the Vice Student Council.
-          I am  the core team lead at <span>Node</span>, our tech club, and a senior member at the <span>Model United Nations</span> club.
-          Furthermore, I'm a core team member of the <span>Peer Educator</span> group, <span>Pi Squad</span> - the math club, <span>Red Shift</span> - the physics club, <span>Allotropes</span> - the 		chemistry club and the <span>Society of Quiz and Debate</span>.
-	I'm a senior member of <span>Project Nidaan</span> - a community service project aimed to improve healthcare and sanitation in two adopted government schools.</p>
-        </p>  
-<p class="heading"> > Leadership Institute at Harvard College // Entrepreneurial Studies / 2020 </p>
-        <p>Incoming student at the Harvard YLC Institute, 2020.</p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="row" style="margin-top:10rem;"><a name="exp"><hr></a></div>
-    <div class="row">
-
-      <div class="row">
-        <div class="twelve columns">
-          <div class="row">
-          <h2><b> Experience </b></h2>
-
-          <p class="heading"> > Research Intern // Loyola University, Chicago / 2020-Present </p>
-          <p>
-
-	  <p class="heading"> > Software Engineer // Young Scientists Journal / 2020-Present </p>
-          <p>As a Software Engineer at the Young Scientists Journal, I work on the backend of a website that receives over half a million visits daily. 
-		I work on the optimization of podcast releases, the article submission system, the Java Message Service and partake in web testing.
-
- <p class="heading"> > Summer Intern // Fortis Healthcare / 2020-Present </p>
-          <p> I'm a summer intern at Fortis Healthcare, where I've had the opportunity to launch a mental health awareness project under the aegis of Dr. Samir Parikh, director at the Department of Mental Health. I'm currently performing research on clinical disorders and psychological interviewing, amongst other applied fields in behavioural sciences.
-
-	  <p class="heading"> > Head Boy, Vice Student Council // Delhi Public School, Gurgaon / 2019-Present </p>
-          <p>As the Head Boy of the Vice Student Council, I lead the 6000+ student body and represent the school at several regional and national competitions, those being of tech, public speaking, 		  pitching, and quizzing. I was the program coordinator at the International Kids Film Festival; one of Delhi-NCR's largest directors’ meet; a national Model UN conference; and a cancer awareness 		  event. As the spokesperson, I’ve anchored multiple events, including the investiture ceremony, the scholar badge ceremony, and the annual sports day.
-
-	  <p class="heading"> > Youth Leader // The Global Education & Leadership Foundation / 2018-Present </p>
-          <p> I founded Sandhi - The Connect with a vision to provide quality education to underprivileged children. In this venture, I led a team of 54 students to work at two government schools that we adopted - at Jharsa and Kanhai. I handled financial, academic, and organizational duties. We conducted surveys, established an interactive reading-writing platform and organized over fifteen day camps with various activities. We further provided counseling to parents and
-scholarships to selected students.
-
-<p class="heading"> > Virtual Technology Consulting Intern // Deloitte / 2020 </p>
-          <p> In this virtual experience, I worked on practical task modules centered around client discovery, business cases, mobilization considerations, and cloud engineering. I conducted various market scans, and cloud feasibility and readiness assessments.
+@font-face{
+  src: url('../fonts/CircularStd/CircularStd-Black.ttf')  format('truetype');
+  font-family: 'CircularStdBlack';
+  font-style: normal;
+} 
 
 
-          <p class="heading"> > Code-in Game & Web Developer // Google / 2019-2020 </p>
-          <p>At Google Code-in 2019, I spent two months working with Copyleft Games - where I developed a three-staged game called PyDodger. I gave multiple presentations on various concepts that libsoy was dependent on, and worked to cleaned the source code of two libraries. I documented and conducted extensive research on the OpenGL Rendering Pipeline. Furthermore, I developed a new Google Code-In toolkit.
-          
-          <p class="heading"> > Core Team Lead // Network of Digital Enthusiasts / 2017-Present </p>
-          <p>Represented and led the club to wins in 10+ national and regional hackathons, designathons
-            and other events; lectured juniors and helped in organizational and design tasks for events held
-            in school.
-          
-          </div>
-  
-        </div>
-      </div>
 
-<div class="row" style="margin-top:10rem;"><a name="cert"><hr></a></div>
-        <div class="row">
+.container {
+position: relative;
+width: 100%;
+max-width: 1325px;
+margin: 0 auto;
+padding: 0 20px;
+box-sizing: border-box; }
 
-        <div class="row">
-          <div class="twelve columns">
-            <div class="row">
-            <h2><b> Certifications </b></h2>
+.column,
+.columns {
+width: 100%;
+float: left;
+box-sizing: border-box; }
 
-          
-<p class="heading"> > <a href = "Deloitte_Internship.pdf" target = "blank" >Technology Consulting</a> // Deloitte  </p>
-<p class="heading"> > <a href = "GE.pdf" target = "blank" >Digital Technology Enterprise</a> // General Electric  </p>
-<p class="heading"> > <a href = "JPM.pdf" target = "blank" >Software Engineering</a> // JPMorgan Chase & Co.  </p>
-<p class="heading"> > <a href = "GT.pdf" target = "blank" >Auditing</a> // Grant Thornton </p>
-<p class="heading"> > <a href = "https://courses.cognitiveclass.ai/certificates/c2f99de37fd04a46a528572663fa0cab" target = "blank" > Data Visualisation with R</a> // IBM  </p>
-            
-            <p class="heading"> > <a href = "https://courses.cognitiveclass.ai/certificates/db4d62421b804f8698178566656bc50d" target = "blank" >Deep Learning Fundamentals</a> // IBM  </p>
-            
-            <p class="heading"> > <a href = "https://courses.cognitiveclass.ai/certificates/49fcd0e156ab452b8b6f7f834e9851be" target = "blank" >Deep Learning with TensorFlow</a> // IBM  </p>
+@media (min-width: 400px) {
+.container {
+  width: 85%;
+  padding: 0; }
+}
 
-	    <p class="heading"> > <a href = "https://courses.cognitiveclass.ai/certificates/dcefdf4187274649b4c3c93513605689" target = "blank" >Machine Learning with Python</a> // IBM  </p>
-  
-            <p class="heading"> > <a href = "https://courses.cognitiveclass.ai/certificates/6ba0546c249e44058caa771b4377b7d7" target = "blank" >Blockchain Essentials v2</a> // IBM  </p>
+@media (min-width: 550px) {
+.container {
+  width: 80%; }
+.column,
+.columns {
+  margin-left: 4%; }
+.column:first-child,
+.columns:first-child {
+  margin-left: 0; }
 
+.one.column,
+.one.columns                    { width: 4.66666666667%; }
+.two.columns                    { width: 13.3333333333%; }
+.three.columns                  { width: 22%;            }
+.four.columns                   { width: 30.6666666667%; }
+.five.columns                   { width: 39.3333333333%; }
+.six.columns                    { width: 48%;            }
+.seven.columns                  { width: 56.6666666667%; }
+.eight.columns                  { width: 65.3333333333%; }
+.nine.columns                   { width: 74.0%;          }
+.ten.columns                    { width: 82.6666666667%; }
+.eleven.columns                 { width: 91.3333333333%; }
+.twelve.columns                 { width: 100%; margin-left: 0; }
 
-<p class="heading"> > <a href = "KPMG.pdf" target = "blank" >Data Analytics</a> // KPMG  </p>
-            </div>
-    
-          </div>
-        </div>
-    
-  
-      <div class="row" style="margin-top:10rem;"><a name="awards"><hr></a></div>
-      <div class="row">
+.one-third.column               { width: 30.6666666667%; }
+.two-thirds.column              { width: 65.3333333333%; }
 
+.one-half.column                { width: 48%; }
 
-        <div class="row">
-          <div class="twelve columns">
-            <div class="row">
-            <h2><b> Awards and Honours </b></h2>
-            <p class="heading"> > Google Code-in Grand Prize Winner // Google Open Source + Copyleft Games / 2020 </p>
-            <p> I was awarded the Grand Prize and an all-expense-paid trip to Googleplex, California for excellent open-source contribution.
+.offset-by-one.column,
+.offset-by-one.columns          { margin-left: 8.66666666667%; }
+.offset-by-two.column,
+.offset-by-two.columns          { margin-left: 17.3333333333%; }
+.offset-by-three.column,
+.offset-by-three.columns        { margin-left: 26%;            }
+.offset-by-four.column,
+.offset-by-four.columns         { margin-left: 34.6666666667%; }
+.offset-by-five.column,
+.offset-by-five.columns         { margin-left: 43.3333333333%; }
+.offset-by-six.column,
+.offset-by-six.columns          { margin-left: 52%;            }
+.offset-by-seven.column,
+.offset-by-seven.columns        { margin-left: 60.6666666667%; }
+.offset-by-eight.column,
+.offset-by-eight.columns        { margin-left: 69.3333333333%; }
+.offset-by-nine.column,
+.offset-by-nine.columns         { margin-left: 78.0%;          }
+.offset-by-ten.column,
+.offset-by-ten.columns          { margin-left: 86.6666666667%; }
+.offset-by-eleven.column,
+.offset-by-eleven.columns       { margin-left: 95.3333333333%; }
 
-            <p class="heading"> > Global Young Leaders Fellow // United Nations + Rex / 2019 </p>
-            <p> I was felicitated with the REX Karmaveer Chakra Award at IIT Delhi for holistic profile building. 
-		I was invited to the GYLF Conclive to be part of a a well-curated network of professionals.
+.offset-by-one-third.column,
+.offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+.offset-by-two-thirds.column,
+.offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
 
-		<p class="heading"> > Camp Invitee // Summer Research School, Bulgaria / 2020 </p>
-            <p> I ranked amongst the few international candidates accepted to the twentieth highly prestigious Annual Summer Research School, Bulgaria in Mathematics and Computer Science.
+.offset-by-one-half.column,
+.offset-by-one-half.columns     { margin-left: 52%; }
 
-	    <p class="heading"> > UEMPhO Gold Medalist // University of Engineering and Management / 2020 </p>
-            <p> Awarded the Gold Medal in an open International Physics Olympiad, being the only student to obtain a full score internationally.
-
-            <p class="heading"> > Star Student of the Year // Lions Clubs International / 2019 </p>
-            <p> I was presented with this honour for excellence in academics and community service.
-
-	    <p class="heading"> > National Pratibha Samman Awardee // Maheshwari Sabha / 2019 </p>
-            <p> I was felicitated with the Pratibha Samman Award for excellence in academics, being one of the 250 students to receive this honour.
-
-            <p class="heading"> > Mentor's Award of Excellence // Toyota / 2019 </p>
-            <p> I was presented with the Mentor's Award of Excellence in the final round of the National Toyota Hackathon, stood 5th among 600+ teams for Project Matter Node.
-
-
-            <p class="heading"> > Director's Gold Medalist // Delhi Public School, Gurgaon / 2020 </p>
-            <p> I won the Director's Gold Medal for excellence in academics for eight consecutive years in school.
-            
-            </div>
-    
-          </div>
-        </div>
-	      
-	      
-        <div class="row" style="margin-top:10rem;"><a name="volun"><hr></a></div>
-        <div class="row">
-
-        <div class="row">
-          <div class="twelve columns">
-            <div class="row">
-            <h2><b> Volunteer Experience </b></h2>
-            <p class="heading"> > Senior Project Mentor // Project Nidaan / 2019-Present </p>
-            <p> At Project Nidaan, I worked with a team comprised of ~40 members, to improve health and wellbeing standards for the weaker sections of society - by helping organize street plays and flash mobs on the prevailing mindset of the people on health and wellness. We conducted the Paras Hospital Cyclothon, which had 150+ participants that cycled 5 kilometers, organized a cleanliness drive using MCG Mobile Medical Units, and partnered in a crowdfunding program in partnership with Fuel A Dream to raise funds to impact the lives of over 3500 families by providing them health kits.
-
-  <p class="heading"> > Community Development Volunteer // OpenStreetMap Foundation / 2019-2020 </p>
-            <p> At the OpenStreetMap Foundation, I helped with geomapping. I uploaded multiple change requests to the foundation database and took up queries put forth by newcomers in the Internet Relay Chat of the organization.
+}
 
 
-            <p class="heading"> > Event Coordination & Fundraising Volunteer // Indian Cancer Society / 2017-Present </p>
-            <p> At the Indian Cancer Society, we coordinate and plan out an awareness event every year wherein about eight hundred preschoolers suffering from cancer are invited to DPS Gurgaon. This year, I handled and contributed to meal distribution, budgeting, and overall program coordination. About four thousand donors contributed to raising funds for multiple events.
+html {
+font-size: 62.5%;
+scroll-behavior: smooth;
+} 
 
-<p class="heading"> > Senior Advisor & Tutor // Interact Club / 2017-Present</p>
-            <p> At the Rotaract chapter of DPS Gurgaon, I've helped plan both academic and non-academic curricula for underprivileged children at two adopted government schools. I've also tutored over eighty students in multiple disciplines.
-
-
-          
-
-           
-            </div>
-    
-          </div>
-        </div>
-    
-        <div class="row" style="margin-top:10rem;"><a name="proj"><hr></a></div>
-        <div class="row">
-
-        <div class="row">
-          <div class="twelve columns">
-            <div class="row">
-            <h2><b> Projects </b></h2>
-            <p class="heading"> > PyDodger </p>
-            <p> PyDodger is an intense navigational game created using PySoy, a 3D cloud game engine. 
-            <p class="heading"> > Project Phoenix </p>
-            <p> Phoenix is a social innovation project that comprises of the AlphaBin and the BetaTherm, which together create a coordinated system making use of recent technological developments to clean oceanic water.
-
-            <p class="heading"> > Matter Node </p>
-            <p> Matter Node is a road safety improvement project that aims to reduce traffic accidents due to signal violations, by making use of an active Radio Frequency system.
-
-            <p class="heading"> > Ecosy </p>
-            <p> Ecosy is a web application that uses a user's location data to determine all quantifiable ecological indexes and compare it to other areas.
-            
-            </div>
-    
-          </div>
-        </div>
-  
-  
-
-    <div class="row" style="margin-top:10rem;">
-	<a name="cont"><hr></a>
-      <h2>Get in touch</h2>
-      <p id = 'communication'>Choose your preferred means of communication, and let's get talking.</p>
-
-      <a href = "https://github.com/namanmodani" class = "github social" target="_blank"></a>
-      <a href = "https://www.linkedin.com/in/namanmodani/" class = "linkedin social" target="_blank"></a>
-      <a href = "https://www.instagram.com/naman_modani/" class = "instagram social" target="_blank"></a>
-      <a href = "https://www.quora.com/profile/Naman-Modani" class = "quora social" target="_blank"></a>
-      <a href = "https://www.facebook.com/naman.modani.773" class = "fb social" target="_blank"></a><br>
-
-	<p style="margin-top:2rem">Move to <span><a href = "#top">top</a></span>.</p>
-
-    </div>
-
-      <div class="row" style="margin-top:2rem;">
-        <hr class="f">
-        <div class="footer">
-          
-          &copy; 2020 <a href="mailto:modani.naman@gmail.com"> Naman Modani</a>.
-          
-        </div>
-      </div>
+body {
+font-size: 2.5em; 
+line-height: 1.6;
+font-family: "CircularStdBold", "Poppins";
+background-color: black;
+color: white; }
 
 
-  </div>
+.logo{background:url(https://image.flaticon.com/icons/svg/0/85.svg) no-repeat; width:67px; height:69px;margin-top:8%;}
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+.subhead{font-size:1.4rem;line-height:1.3;margin-bottom:5rem;margin-left:0;}
 
-  ga('create', 'UA-19251357-1', 'auto');
-  ga('send', 'pageview');
+.logocontainer{background-color:#dddddd;margin-top:6rem;padding:4rem 0; }
 
-</script>
-</body>
-</html>
+.github{background:url(https://image.flaticon.com/icons/svg/1051/1051275.svg) no-repeat; width:40px; height:38px;background-size:38px 38px;margin-right:20px;float:left; text-decoration: none;}
+.linkedin{background:url(https://image.flaticon.com/icons/svg/1409/1409945.svg) no-repeat; width:38px; height:38px;background-size:38px 38px;margin-right:20px;float:left; text-decoration: none;}
+.instagram{background:url(https://image.flaticon.com/icons/svg/2111/2111463.svg) no-repeat; width:38px; height:38px;background-size:38px 38px;margin-right:20px;float:left; text-decoration: none;}
+.quora{background:url(https://image.flaticon.com/icons/svg/185/185976.svg) no-repeat; width:38px; height:38px;background-size:38px 38px;margin-right:20px;float:left; text-decoration: none;}
+.fb{background:url(https://image.flaticon.com/icons/svg/1312/1312139.svg) no-repeat; width:38px; height:38px;background-size:38px 38px;margin-right:0;float:left; text-decoration: none;}
+
+
+.social {border:0;}
+.social:hover {opacity:.5;border:0;}
+
+.footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:white; font-family:"CircularStdBook"}
+.footer a{color: white;border:0;}
+.footer a:hover{opacity:.5;border:0;}
+
+
+.program{
+  width:115px;
+  height:31px; 
+  background-size:115px 31px;
+  padding:1.7rem 0;
+  margin:0 auto;
+  opacity:0.9; 
+  font-family: "CircularStdBold", "Poppins";
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+#tooltip {
+position:absolute;
+background:#fff;
+color:#000;
+padding:5rem 2rem;
+opacity:.9;
+font-size: 1.3rem;
+}
+
+#me {
+  margin:auto 0px 40px auto;
+  border-radius: 35px;
+  align-self: center;
+}
+
+#subtitle {
+font-family: "CircularStdBook";
+font-size: 2.4rem;
+margin-bottom:16rem;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+  .logo{background:url(https://image.flaticon.com/icons/svg/0/85.svg) no-repeat;background-size:67px 69px;} 
+  .footer{background-image:url(https://image.flaticon.com/icons/svg/0/85.svg); background-size:31px 33px;}
+}
+
+h1 {
+font-family: "Montserrat SemiBold", "Poppins";
+background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+letter-spacing: -.15rem;
+padding-bottom: 0;
+margin-bottom:15px
+}
+
+
+h2{
+margin-top: 0;
+margin-bottom: 2.6rem; 
+font-family: "Montserrat SemiBold", "Poppins";
+letter-spacing: -.1rem;
+color: white;
+}
+
+h1 { font-size: 8.35rem; line-height: 1.05; margin-top: 21.5rem;}
+h2 { font-size: 2.6rem; line-height: 1.2;}
+h3 { font-size: 2.4rem; line-height: 1.3;}
+h4 { font-size: 2.4rem; line-height: 1.35;}
+h5 { font-size: 1.8rem; line-height: 1.5;}
+h6 { font-size: 1.5rem; line-height: 1.6;}
+
+.heading {
+  font-family: "CircularStdBold", "Poppins";
+  font-size: 1.75rem;
+  margin-bottom: 0px;
+background: linear-gradient(96deg, #ff6a00, #ff20a4);
+); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  margin-top: 0; 
+  padding-top:0;
+  font-family: "CircularStdBook", "Poppins";
+  font-size: 1.6rem;
+  color: white;
+  }
+
+@media (min-width: 1200px) {
+h1 { font-size: 11rem; line-height: 1.2; margin-top:25rem;}
+h2 { font-size: 4rem; }
+#subtitle {font-size: 3.65rem;}
+#me{height: 465px}
+.heading{font-size: 1em;}
+p {font-size: 2.05rem}
+.footer{font-size: 18px;}
+}
+
+@media (max-width: 1200px) {
+#me{height: 300px}
+}
+
+
+#communication{
+margin-top: 0;
+font-family: "CircularStdBook", "Poppins";
+font-size: 15;
+}
+
+a {
+color: white; 
+border-bottom:1px solid white;
+text-decoration:none;}
+a:hover {
+background: linear-gradient(96deg, #ff6a00, #ff20a4);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border-bottom:1px solid white; 
+transition:.5s;}
+
+
+
+code {
+padding: .2rem .5rem;
+margin: 0 .2rem;
+font-size: 90%;
+white-space: nowrap;
+background: #F1F1F1;
+border: 1px solid #E1E1E1;
+border-radius: 4px; }
+pre > code {
+display: block;
+padding: 1rem 1.5rem;
+white-space: pre; }
+
+
+.u-full-width {
+width: 100%;
+box-sizing: border-box; }
+.u-max-full-width {
+max-width: 100%;
+box-sizing: border-box; }
+.u-pull-right {
+float: right; }
+.u-pull-left {
+float: left; }
+
+hr {
+margin-top: 4rem;
+margin-bottom: 6rem;
+border-width: 0;
+border-top: 2px solid #000;
+width:40px;
+text-align:left;
+margin-left:0;
+border-color: white;}
+
+hr.f {
+margin-top: 3rem;
+margin-bottom: 3rem;
+border-width: 0;
+border-top: 1px solid #cabbbb;
+width:100%;
+text-align:left;
+margin-left:0;
+}
+
+.container:after,
+.row:after,
+.u-cf {
+content: "";
+display: table;
+clear: both; }
+
+span{
+   font-family: "CircularStdBold";
+
+}
+
+
