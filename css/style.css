@@ -29,12 +29,14 @@
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Bold.ttf')  format('truetype');
   font-family: 'CircularStdBold';
+    font-style: normal;
 
 } 
 
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Book.ttf')  format('truetype');
   font-family: 'CircularStdBook';
+    font-style: normal;
 
 } 
 
