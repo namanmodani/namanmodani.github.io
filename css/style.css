@@ -197,7 +197,7 @@ margin-bottom:16rem;
 }
 
 h1 {
-font-family: "CircularStdBook", "Poppins";
+font-family: "Montserrat SemiBold", "CircularStdBook";
 background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -207,18 +207,11 @@ padding-bottom: 0;
 margin-bottom:0
 }
 
-h3 {
-margin-top: 0;
-margin-bottom: 12rem;
-font-family: "CircularStd", "Poppins";
-color: white;
-letter-spacing:-.05rem;
-}
 
 h2, h4, h5, h6 {
 margin-top: 0;
 margin-bottom: 2.6rem; 
-font-family: "CircularStd", "Poppins";
+font-family: "Montserrat SemiBold", "Poppins";
 color: white;
 }
 
