@@ -28,7 +28,7 @@
 
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Bold.ttf')  format('truetype');
-  font-family: 'CircularStd';
+  font-family: 'CircularStdBold';
 
 } 
 
@@ -210,7 +210,7 @@ margin-bottom:0
 h3 {
 margin-top: 0;
 margin-bottom: 12rem;
-font-family: "CircularStd", "Poppins";
+font-family: "CircularStdBook", "Poppins";
 color: white;
 letter-spacing:-.05rem;
 }
@@ -218,7 +218,7 @@ letter-spacing:-.05rem;
 h2, h4, h5, h6 {
 margin-top: 0;
 margin-bottom: 2.6rem; 
-font-family: "CircularStd", "Poppins";
+font-family: "CircularStdBold", "Poppins";
 color: white;
 }
 
@@ -230,7 +230,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;}
 h6 { font-size: 1.5rem; line-height: 1.6;}
 
 .heading {
-  font-family: "CircularStd", "Poppins";
+  font-family: "CircularStdBold", "Poppins";
   font-size: 1.75rem;
   margin-bottom: 0px;
 background: linear-gradient(96deg, #ff6a00, #ff20a4);
@@ -480,7 +480,7 @@ display: table;
 clear: both; }
 
 span{
-   font-family: "CircularStd";
+   font-family: "CircularStdBold";
 
 }
 
