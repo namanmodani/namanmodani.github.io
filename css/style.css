@@ -19,9 +19,6 @@
   src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
-}
-
-@font-face{
   src: url('../fonts/Rubik/Rubik-Regular.ttf')  format('truetype');
   font-family: 'Rubik';
 } 
@@ -29,14 +26,21 @@
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Bold.ttf')  format('truetype');
   font-family: 'CircularStdBold';
-    font-style: normal;
+  font-style: normal;
 
 } 
 
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Book.ttf')  format('truetype');
   font-family: 'CircularStdBook';
-    font-style: normal;
+  font-style: normal;
+
+} 
+
+@font-face{
+  src: url('../fonts/CircularStd/CircularStd-Book.otf')  format('opentype');
+  font-family: 'CircularStdBook';
+  font-style: normal;
 
 } 
 
