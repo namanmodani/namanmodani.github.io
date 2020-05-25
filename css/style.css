@@ -24,18 +24,20 @@
 } 
 
 @font-face{
+  src: url('../fonts/CircularStd/CircularStd-Bold.otf')  format('opentype');
+  font-family: 'CircularStdBold';
+  font-style: normal;
+
+} 
+
+
+@font-face{
   src: url('../fonts/CircularStd/CircularStd-Bold.ttf')  format('truetype');
   font-family: 'CircularStdBold';
   font-style: normal;
 
 } 
 
-@font-face{
-  src: url('../fonts/CircularStd/CircularStd-Book.woff')  format('woff');
-  font-family: 'CircularStdBook';
-  font-style: normal;
-
-} 
 
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Book.ttf')  format('truetype');
@@ -44,12 +46,6 @@
 
 } 
 
-@font-face{
-  src: url('../fonts/CircularStd/CircularStd-Book.otf')  format('opentype');
-  font-family: 'CircularStdBook';
-  font-style: normal;
-
-} 
 
 .container {
 position: relative;
@@ -142,7 +138,7 @@ scroll-behavior: smooth;
 body {
 font-size: 2.5em; 
 line-height: 1.6;
-font-family: "Montserrat", "Poppins";
+font-family: "CircularStdBold", "Poppins";
 background-color: black;
 color: white; }
 
@@ -175,7 +171,7 @@ color: white; }
   padding:1.7rem 0;
   margin:0 auto;
   opacity:0.9; 
-  font-family: "CircularStdBook", "Poppins";
+  font-family: "CircularStdBold", "Poppins";
   font-size: 2rem;
   text-align: center;
   color: black;
@@ -214,21 +210,13 @@ font-family: "CircularStdBook", "Poppins";
 background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 letter-spacing: .15rem;
 padding-bottom: 0;
 margin-bottom:0
 }
 
-h3 {
-margin-top: 0;
-margin-bottom: 12rem;
-font-family: "CircularStdBook", "Poppins";
-color: white;
-letter-spacing:-.05rem;
-}
 
-h2, h4, h5, h6 {
+h2{
 margin-top: 0;
 margin-bottom: 2.6rem; 
 font-family: "CircularStdBold", "Poppins";
