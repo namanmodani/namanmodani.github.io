@@ -31,6 +31,13 @@
 } 
 
 @font-face{
+  src: url('../fonts/CircularStd/CircularStd-Book.woff')  format('woff');
+  font-family: 'CircularStdBook';
+  font-style: normal;
+
+} 
+
+@font-face{
   src: url('../fonts/CircularStd/CircularStd-Book.ttf')  format('truetype');
   font-family: 'CircularStdBook';
   font-style: normal;
