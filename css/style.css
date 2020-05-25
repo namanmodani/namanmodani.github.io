@@ -202,7 +202,7 @@ background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-letter-spacing: .15rem;
+letter-spacing: -.15rem;
 padding-bottom: 0;
 margin-bottom:0
 }
