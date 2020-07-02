@@ -147,7 +147,7 @@ color: white; }
 .fb{background:url(https://image.flaticon.com/icons/svg/1312/1312139.svg) no-repeat; width:38px; height:38px;background-size:38px 38px;margin-right:0;float:left; text-decoration: none;}
 
 
-.social {border:0;}
+.social {border:0; font-size: 0}
 .social:hover {opacity:.5;border:0;}
 
 .footer {background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);background-repeat: no-repeat;background-position:right top; height:33px;margin-bottom:3rem;padding-top:5px;font-size:14px;color:white; font-family:"CircularStdBook"}
