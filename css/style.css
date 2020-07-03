@@ -188,19 +188,19 @@ body {
 /* Socials */
 
 .github {
-  background:url(https://image.flaticon.com/icons/svg/1051/1051275.svg) no-repeat; 
+  background:url(https://cdn4.iconfinder.com/data/icons/miu-gloss-social/60/github-512.png) no-repeat; 
 }
 .linkedin {
-  background:url(https://image.flaticon.com/icons/svg/1409/1409945.svg) no-repeat; 
+  background:url(https://image.flaticon.com/icons/svg/1384/1384014.svg) no-repeat; 
 }
 .instagram {
-  background:url(https://image.flaticon.com/icons/svg/2111/2111463.svg) no-repeat; 
+  background:url(https://image.flaticon.com/icons/svg/733/733614.svg) no-repeat; 
 }
 .quora {
   background:url(https://image.flaticon.com/icons/svg/185/185976.svg) no-repeat; 
 }
 .fb {
-  background:url(https://image.flaticon.com/icons/svg/1312/1312139.svg) no-repeat; 
+  background:url(https://www.iconsdb.com/icons/preview/white/facebook-4-xxl.png) no-repeat; 
 }
 
 .social {
@@ -317,7 +317,7 @@ hr.f {
 
 h1 {
   font-family: "Montserrat SemiBold", "CircularStdBook";
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background: linear-gradient(95deg, #30d100, #ecff00); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.35rem;
