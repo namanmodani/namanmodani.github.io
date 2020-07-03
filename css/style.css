@@ -271,17 +271,10 @@ hr.f {
 
   /* Content */
 
-.program {
-  width:115px;
-  height:31px; 
-  background-size:115px 31px;
-  padding:1.7rem 0;
-  margin:0 auto;
-  opacity:0.9; 
-  font-family: "CircularStdBook", "Poppins";
-  font-size: 2rem;
-  text-align: center;
-  color: black;
+.go {
+  font-size: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 #me {
