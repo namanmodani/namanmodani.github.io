@@ -200,7 +200,7 @@ body {
   background:url(https://www.iconsdb.com/icons/preview/white/behance-5-xxl.png) no-repeat; 
 }
 .fb {
-  background:url(https://www.iconsdb.com/icons/preview/white/facebook-5-xxl.png) no-repeat; 
+  background:url(https://www.iconsdb.com/icons/preview/white/facebook-5-xxl.png) no-repeat; color: white;
 }
 
 .social {
@@ -212,7 +212,6 @@ body {
   margin-right: 20px;
   float:left; 
   text-decoration: none;
-  color: white;
 }
 
 .social:hover {
