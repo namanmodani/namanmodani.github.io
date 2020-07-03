@@ -181,23 +181,23 @@ body {
   font-size: 2.5em; 
   line-height: 1.6;
   font-family: "Montserrat", "Poppins";
-  background-color: black;
+  background-color: #121212;
   color: white; 
 }
 
 /* Socials */
 
 .github {
-  background:url(https://cdn4.iconfinder.com/data/icons/miu-gloss-social/60/github-512.png) no-repeat; 
+  background:url(https://www.iconsdb.com/icons/preview/white/github-9-xl.png) no-repeat; 
 }
 .linkedin {
-  background:url(https://image.flaticon.com/icons/svg/1384/1384014.svg) no-repeat; 
+  background:url(https://www.iconsdb.com/icons/preview/white/linkedin-3-xl.png) no-repeat; 
 }
 .instagram {
-  background:url(https://image.flaticon.com/icons/svg/733/733614.svg) no-repeat; 
+  background:url(https://www.iconsdb.com/icons/preview/white/instagram-6-xl.png) no-repeat; 
 }
 .quora {
-  background:url(https://image.flaticon.com/icons/svg/185/185976.svg) no-repeat; 
+  background:url(https://www.iconsdb.com/icons/preview/white/search-3-xxl.png) no-repeat; 
 }
 .fb {
   background:url(https://www.iconsdb.com/icons/preview/white/facebook-4-xxl.png) no-repeat; 
