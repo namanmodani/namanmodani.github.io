@@ -317,7 +317,7 @@ hr.f {
 
 h1 {
   font-family: "Montserrat SemiBold", "CircularStdBook";
-  background: linear-gradient(95deg, #30d100, #ecff00); 
+  background: linear-gradient(94deg, #00d18c, #00ffe6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.35rem;
@@ -411,7 +411,7 @@ span {
 /* Additional Gradient Options 
 
 background: linear-gradient(96deg, #ff6a00, #ff20a4);
-background: linear-gradient(96deg, #f8ff00, #ff9300);
+background: linear-gradient(94deg, #00d18c, #00ffe6);
 background: linear-gradient(95deg, #30d100, #ecff00); 
 background: linear-gradient(94deg, #00d18c, #00ffe6);
 
