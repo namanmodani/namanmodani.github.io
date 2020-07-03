@@ -317,9 +317,9 @@ hr.f {
 
 h1 {
   font-family: "Montserrat SemiBold", "CircularStdBook";
+  background: linear-gradient(95deg, #30d100, #ecff00); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(95deg, #30d100, #ecff00); 
   letter-spacing: -.35rem;
   padding-bottom: 0;
   margin-bottom: 0;
