@@ -191,10 +191,10 @@ body {
   background:url(https://www.iconsdb.com/icons/preview/white/github-9-xl.png) no-repeat; 
 }
 .linkedin {
-  background:url(https://www.iconsdb.com/icons/preview/white/linkedin-3-xl.png) no-repeat; 
+  background:url(https://image.flaticon.com/icons/svg/2111/2111532.svg) no-repeat; 
 }
 .instagram {
-  background:url(https://www.iconsdb.com/icons/preview/white/instagram-6-xl.png) no-repeat; 
+  background:url(https://image.flaticon.com/icons/svg/1384/1384031.svg) no-repeat; 
 }
 .quora {
   background:url(https://www.iconsdb.com/icons/preview/white/search-3-xxl.png) no-repeat; 
@@ -212,6 +212,7 @@ body {
   margin-right: 20px;
   float:left; 
   text-decoration: none;
+  color: white;
 }
 
 .social:hover {
