@@ -187,35 +187,16 @@ body {
 
 /* Socials */
 
-.github {
-  background:url(https://www.iconsdb.com/icons/preview/white/github-10-xxl.png) no-repeat; 
-}
-.linkedin {
-  background:url(https://www.iconsdb.com/icons/preview/white/linkedin-5-xxl.png) no-repeat; 
-}
-.instagram {
-  background:url(https://www.iconsdb.com/icons/preview/white/instagram-5-xxl.png) no-repeat; 
-}
-.behance {
-  background:url(https://www.iconsdb.com/icons/preview/white/behance-5-xxl.png) no-repeat; 
-}
-.fb {
-  background:url(https://www.iconsdb.com/icons/preview/white/facebook-5-xxl.png) no-repeat; color: white;
-}
-
-.social {
-  border:0; 
-  font-size: 0;
-  width: 38px; 
-  height: 38px;
-  background-size: 38px 38px;
-  margin-right: 20px;
-  float:left; 
+.fa {
+  padding: 20px;
+  width: 30px;
+  text-align: center;
   text-decoration: none;
+  border: 0;
 }
 
-.social:hover {
-  opacity: 0.5;
+.fa:hover {
+  opacity: 0.8;
   border: 0;
 }
 
@@ -229,8 +210,8 @@ a {
 
 a:hover {
   -webkit-text-fill-color: transparent;
-  border-bottom:1px solid white; 
-  transition:.5s;
+  border-bottom: 1px solid white; 
+  transition: .5s;
 }
 
 .hover:hover {
@@ -378,7 +359,7 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
-    font-size: 12rem; 
+    font-size: 11.25rem; 
     line-height: 1.2; 
     margin-top: 45rem;
   }
