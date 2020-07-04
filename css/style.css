@@ -411,4 +411,7 @@ background: linear-gradient(94deg, #00d18c, #00ffe6);
   z-index: -1
 }
 
+html {
+  overflow-x: hidden;
+}
 
