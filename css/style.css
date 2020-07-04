@@ -386,6 +386,7 @@ span {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     white-space: nowrap; 
+    overflow: visible;
   }
 
   #subtitle {
