@@ -43,7 +43,7 @@
 .container {
 position: relative;
 width: 100%;
-max-width: 1400px;
+max-width: 1325px;
 margin: 0 auto;
 padding: 0 20px;
 box-sizing: border-box; 
@@ -324,7 +324,6 @@ h1 {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: 45%;
-  
 }
 
 
@@ -379,13 +378,15 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
-    font-size: 5rem; 
+    font-size: 14rem; 
     line-height: 1.2; 
     z-index: 1;
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    white-space: nowrap; 
+
   }
 
   #subtitle {
