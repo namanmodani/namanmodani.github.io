@@ -383,10 +383,10 @@ span {
     line-height: 1.2; 
     z-index: 1;
     position: absolute;
-    left: 49%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    overflow: visible;
+    overflow: auto;
   }
 
   #subtitle {
