@@ -378,14 +378,14 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
+    white-space: nowrap; 
     font-size: 13rem; 
     line-height: 1.2; 
     z-index: 1;
     position: absolute;
-    left: 50%;
+    left: 49%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    white-space: nowrap; 
     overflow: visible;
   }
 
