@@ -364,6 +364,10 @@ span {
   font-family: "CircularStd";
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 /* Media Responsiveness */
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
@@ -378,7 +382,6 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
-    white-space: nowrap; 
     font-size: 13rem; 
     line-height: 1.2; 
     z-index: 1;
@@ -386,7 +389,6 @@ span {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    overflow: auto;
   }
 
   #subtitle {
