@@ -64,7 +64,7 @@ box-sizing: border-box;
 
 @media (min-width: 550px) {
   .container {
-    width: 80%; 
+    width: 100%; 
   }
 
   /* Column Sizes */
@@ -175,6 +175,8 @@ box-sizing: border-box;
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  display: inline-block;
 } 
 
 body {
@@ -186,10 +188,19 @@ body {
   overflow-x: hidden;
 }
 
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
 /* Socials */
 
 .fa {
-  padding: 20px;
+  padding: 30px;
   width: 20px;
   text-align: center;
   text-decoration: none;
@@ -288,9 +299,13 @@ hr.f {
 
 #subtitle {
   font-family: "CircularStdBook";
-  font-size: 2.4rem;
+  font-size: 0rem;
   z-index:1;
   opacity:0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
 }
 
 h1 {
@@ -303,8 +318,13 @@ h1 {
   margin-bottom: 0;
   font-size: 7.25rem; 
   line-height: 1.1; 
-  margin-top: 30rem;
   z-index:1;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 45%;
+  
 }
 
 
@@ -359,31 +379,42 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
-    font-size: 12rem; 
+    font-size: 10rem; 
     line-height: 1.2; 
     z-index: 1;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
   }
 
   #subtitle {
     font-size: 4rem;
     z-index:1;
     opacity: 100;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
   }
 
   h2 { 
     font-size: 3.5rem; 
   }
 
-  
   #me {
     height: 465px
   }
+
   .heading {
     font-size: 1em;
   }
+
   p {
     font-size: 2.05rem
   }
+
   .footer {
     font-size: 18px;
   }
@@ -404,14 +435,4 @@ background: linear-gradient(94deg, #00d18c, #00ffe6);
 
 */
 
-#particles-js{
-  height: 100vh;
-  background: black;
-  display: flex;
-  z-index: -1
-}
-
-html {
-  overflow-x: hidden;
-}
 
