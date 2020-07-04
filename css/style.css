@@ -379,7 +379,7 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
-    font-size: 7rem; 
+    font-size: 5rem; 
     line-height: 1.2; 
     z-index: 1;
     position: absolute;
