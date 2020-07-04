@@ -209,7 +209,7 @@ a {
 }
 
 a:hover {
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:  ;
   border-bottom: 1px solid white; 
   transition: .5s;
 }
@@ -234,7 +234,8 @@ a:hover {
 }
 
 .footer a {
-  color: white;border:0;
+  color: white;
+  border:0;
 }
 
 .footer a:hover {
