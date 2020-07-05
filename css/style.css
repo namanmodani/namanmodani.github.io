@@ -284,7 +284,7 @@ span {
 
 @media (min-width: 1200px) {
   h1 { 
-    font-size: 7rem; 
+    font-size: 12rem; 
     z-index: 1;
     position: absolute;
     left: 50%;
