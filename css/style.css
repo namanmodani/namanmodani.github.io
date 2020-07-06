@@ -152,7 +152,7 @@ a:hover {
   height:33px;
   margin-bottom:3rem;
   padding-top:5px;
-  font-size:14px;
+  font-size:1.6rem;
   color:white; 
   font-family:"CircularStdBook"
 }
@@ -263,7 +263,7 @@ p {
 #communication {
   margin-top: 0;
   font-family: "CircularStdBook", "Poppins";
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: -x;
 }
 
@@ -322,6 +322,10 @@ span {
 
   .footer {
     font-size: 18px;
+  }
+
+  #communication {
+    font-size: 2rem;
   }
 }
 
