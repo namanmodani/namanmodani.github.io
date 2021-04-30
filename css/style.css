@@ -257,7 +257,7 @@ h2 {
 .certifications {
   font-family: "Work Sans", "Poppins";
   font-weight: 600;
-  font-size: 1.75em;
+  font-size: 1.75rem;
   margin-bottom: 0px;
   background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
