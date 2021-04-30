@@ -91,7 +91,7 @@ body {
   line-height: 1.6;
   font-family: "Work Sans", "Montserrat";
   background-color: #080808;
-  color: white;  
+  color: #9ca9bb;  
 }
 
 #particles-js{
@@ -121,7 +121,7 @@ body {
 /* Hyperlinks */
 
 a {
-  color: white; 
+  color: #9ca9bb; 
   border-bottom:1px solid white;
   text-decoration:none;
 }
@@ -134,10 +134,10 @@ a:hover {
 
 .link:hover {
   border-bottom: 1px solid white; 
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background-color: #2596be;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 4s;
+  transition: 0.2s;
 }
 /* Footer Properties */
 
@@ -238,12 +238,56 @@ h2 {
   line-height: 1.2;
 }
 
-.heading {
+.heading1 {
   font-family: "Work Sans", "CircularStd";
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background-color: #f56565;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -.050rem;
+}
+
+.heading2 {
+  font-family: "Work Sans", "CircularStd";
+  font-weight: 750;
+  font-size: 1.75rem;
+  margin-bottom: 0px;
+  background-color: #4299e1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -.050rem;
+}
+
+.heading3 {
+  font-family: "Work Sans", "CircularStd";
+  font-weight: 750;
+  font-size: 1.75rem;
+  margin-bottom: 0px;
+  background-color: #ecc94b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -.050rem;
+}
+
+.heading4 {
+  font-family: "Work Sans", "CircularStd";
+  font-weight: 750;
+  font-size: 1.75rem;
+  margin-bottom: 0px;
+  background-color: #805ad5;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -.050rem;
+}
+
+.heading5 {
+  font-family: "Work Sans", "CircularStd";
+  font-weight: 750;
+  font-size: 1.75rem;
+  margin-bottom: 0px;
+  background-color: #ED8936;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -254,7 +298,7 @@ h2 {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background-color: #2596be;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -265,7 +309,7 @@ p {
   padding-top:0;
   font-family: "CircularStdBook", "Work Sans";
   font-size: 1.6rem;
-  color: white;
+  color: #9ca9bb;
 }
 
 #communication {
@@ -329,7 +373,7 @@ span {
     font-size: 18px;
   }
 
-  .heading {
+  .heading1, .heading2, .heading3, .heading4, .heading5 {
     font-size: 1em;
   }
 
