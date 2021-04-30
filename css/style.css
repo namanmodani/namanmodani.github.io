@@ -205,7 +205,7 @@ hr.f {
 }
 
 #subtitle {
-  font-family: "Montserrat SemiBold", "CircularStdBook";
+  font-family: "Work Sans", "CircularStdBook";
   color: white;
   letter-spacing: -.35rem;
   margin-bottom: 0;
@@ -220,7 +220,7 @@ hr.f {
 }
 
 h1 {
-  font-family: "Montserrat SemiBold", "CircularStdBook";
+  font-family: "Work Sans", "CircularStdBook";
   color: white;
   letter-spacing: -.35rem;
   margin-bottom: 0;
@@ -238,19 +238,32 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 2.6rem; 
-  font-family: "Montserrat SemiBold", "Poppins";
+  font-family: "Work Sans", "Poppins";
   color: white;
   font-size: 2.6rem; 
   line-height: 1.2;
 }
 
 .heading {
-  font-family: "CircularStd", "Poppins";
-  font-size: 1.75rem;
+  font-family: "Work Sans", "Poppins";
+  font-weight: 750;
+  font-size: 1em;
   margin-bottom: 0px;
   background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -.050rem;
+}
+
+.certifications {
+  font-family: "Work Sans", "Poppins";
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 0px;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -.050rem;
 }
 
 p {
@@ -313,10 +326,6 @@ span {
     height: 465px
   }
 
-  .heading {
-    font-size: 1em;
-  }
-
   p {
     font-size: 2.05rem
   }
@@ -344,5 +353,3 @@ background: linear-gradient(95deg, #30d100, #ecff00);
 background: linear-gradient(94deg, #00d18c, #00ffe6);
 
 */
-
-
