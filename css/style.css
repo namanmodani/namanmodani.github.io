@@ -1,6 +1,13 @@
 /* Fonts */
 
 @font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/WorkSans/WorkSans.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
   font-weight: 700;
@@ -94,7 +101,7 @@ html {
 body {
   font-size: 2.5em; 
   line-height: 1.6;
-  font-family: "Montserrat", "Poppins";
+  font-family: "Work Sans", "Montserrat";
   background-color: black;
   color: white;  
 }
@@ -220,7 +227,7 @@ hr.f {
 }
 
 h1 {
-  font-family: "Work Sans", "CircularStdBook";
+  font-family: "Work Sans", "Montserrat SemiBold";
   color: white;
   margin-bottom: 0;
   font-size: 7.25rem; 
@@ -237,14 +244,14 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 2.6rem; 
-  font-family: "Work Sans", "Poppins";
+  font-family: "Work Sans", "Montserrat SemiBold";
   color: white;
   font-size: 2.6rem; 
   line-height: 1.2;
 }
 
 .heading {
-  font-family: "Work Sans", "Poppins";
+  font-family: "Work Sans", "CircularStd";
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
@@ -255,7 +262,7 @@ h2 {
 }
 
 .certifications {
-  font-family: "Work Sans", "Poppins";
+  font-family: "Work Sans", "CircularStdBook";
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0px;
@@ -268,14 +275,14 @@ h2 {
 p {
   margin-top: 0; 
   padding-top:0;
-  font-family: "CircularStdBook", "Poppins";
+  font-family: "CircularStdBook", "Work Sans";
   font-size: 1.6rem;
   color: white;
 }
 
 #communication {
   margin-top: 0;
-  font-family: "CircularStdBook", "Poppins";
+  font-family: "CircularStdBook", "Work Sans";
   font-size: 1.6rem;
   margin-bottom: -x;
 }
