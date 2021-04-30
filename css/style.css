@@ -222,7 +222,6 @@ hr.f {
 h1 {
   font-family: "Work Sans", "CircularStdBook";
   color: white;
-  letter-spacing: -.35rem;
   margin-bottom: 0;
   font-size: 7.25rem; 
   line-height: 1.1; 
@@ -258,7 +257,7 @@ h2 {
 .certifications {
   font-family: "Work Sans", "Poppins";
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.75em;
   margin-bottom: 0px;
   background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
@@ -300,6 +299,7 @@ span {
 @media (min-width: 1200px) {
   h1 { 
     font-size: 13rem; 
+    letter-spacing: -.35rem;
     z-index: 1;
     position: absolute;
     left: 50%;
@@ -335,6 +335,10 @@ span {
   }
 
   .heading {
+    font-size: 1em;
+  }
+
+  .certifications {
     font-size: 1em;
   }
 
