@@ -21,18 +21,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face{
-  src: url('../fonts/Rubik/Rubik-Regular.ttf')  format('truetype');
-  font-family: 'Rubik';
-} 
-
 @font-face{
   src: url('../fonts/CircularStd/CircularStd-Bold.ttf')  format('truetype');
   font-family: 'CircularStd';
