@@ -247,7 +247,7 @@ h2 {
 .heading {
   font-family: "Work Sans", "Poppins";
   font-weight: 750;
-  font-size: 1em;
+  font-size: 1.75rem;
   margin-bottom: 0px;
   background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
@@ -332,6 +332,10 @@ span {
 
   .footer {
     font-size: 18px;
+  }
+
+  .heading {
+    font-size: 1em;
   }
 
   #communication {
