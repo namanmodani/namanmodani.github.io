@@ -243,7 +243,7 @@ h2 {
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background-color: #f56565;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -254,7 +254,7 @@ h2 {
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background-color: #4299e1;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -265,7 +265,7 @@ h2 {
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background-color: #ecc94b;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -276,7 +276,7 @@ h2 {
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background-color: #805ad5;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -287,7 +287,7 @@ h2 {
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background-color: #ED8936;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -298,7 +298,7 @@ h2 {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background-color: #2596be;
+  background: linear-gradient(96deg, #ff6a00, #ff20a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
