@@ -102,14 +102,14 @@ body {
   font-size: 2.5em; 
   line-height: 1.6;
   font-family: "Work Sans", "Montserrat";
-  background-color: black;
+  background-color: #080808;
   color: white;  
 }
 
 #particles-js{
   height: 100vh;
   width: 100%;
-  background: black;
+  background: #080808;
   display: flex;
   z-index: -1;
   overflow-x: hidden;
@@ -154,7 +154,6 @@ a:hover {
 /* Footer Properties */
 
 .footer {
-  background-image:url(https://image.flaticon.com/icons/svg/0/85.svg);
   background-repeat: no-repeat;
   background-position:right top; 
   height:33px;
@@ -162,7 +161,8 @@ a:hover {
   padding-top:5px;
   font-size:1.6rem;
   color:white; 
-  font-family:"CircularStdBook"
+  font-family:"CircularStdBook";
+  text-align: right;
 }
 
 .footer a {
@@ -362,8 +362,6 @@ span {
 
 /* Additional Gradient Options 
 
-background: linear-gradient(96deg, #ff6a00, #ff20a4);
-background: linear-gradient(94deg, #00d18c, #00ffe6);
 background: linear-gradient(95deg, #30d100, #ecff00); 
 background: linear-gradient(94deg, #00d18c, #00ffe6);
 
