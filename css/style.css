@@ -91,7 +91,7 @@ body {
   line-height: 1.6;
   font-family: "Work Sans", "Montserrat";
   background-color: #080808;
-  color: #9ca9bb;  
+  color: white;  
 }
 
 #particles-js{
@@ -121,7 +121,7 @@ body {
 /* Hyperlinks */
 
 a {
-  color: #9ca9bb; 
+  color: white; 
   border-bottom:1px solid white;
   text-decoration:none;
 }
@@ -309,7 +309,7 @@ p {
   padding-top:0;
   font-family: "CircularStdBook", "Work Sans";
   font-size: 1.6rem;
-  color: #9ca9bb;
+  color: white;
 }
 
 #communication {
