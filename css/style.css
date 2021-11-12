@@ -90,14 +90,14 @@ body {
   font-size: 2.5em; 
   line-height: 1.6;
   font-family: "Work Sans", "Montserrat";
-  background-color: #080808;
+  background-color: #020b12;
   color: white;  
 }
 
 #particles-js{
   height: 100vh;
   width: 100%;
-  background: #080808;
+  background: #020b12;
   display: flex;
   z-index: -1;
   overflow-x: hidden;
@@ -134,7 +134,7 @@ a:hover {
 
 .link:hover {
   border-bottom: 1px solid white; 
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background: linear-gradient(94deg, #267871, #136a8a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 4s;
@@ -191,7 +191,7 @@ hr.f {
 }
 
 
-  /* Content */
+/* Content */
 
 #me {
   margin:auto 0px 40px auto;
@@ -238,56 +238,12 @@ h2 {
   line-height: 1.2;
 }
 
-.heading1 {
+.heading {
   font-family: "Work Sans", "CircularStd";
   font-weight: 750;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -.050rem;
-}
-
-.heading2 {
-  font-family: "Work Sans", "CircularStd";
-  font-weight: 750;
-  font-size: 1.75rem;
-  margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -.050rem;
-}
-
-.heading3 {
-  font-family: "Work Sans", "CircularStd";
-  font-weight: 750;
-  font-size: 1.75rem;
-  margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -.050rem;
-}
-
-.heading4 {
-  font-family: "Work Sans", "CircularStd";
-  font-weight: 750;
-  font-size: 1.75rem;
-  margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -.050rem;
-}
-
-.heading5 {
-  font-family: "Work Sans", "CircularStd";
-  font-weight: 750;
-  font-size: 1.75rem;
-  margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background: linear-gradient(94deg, #267871, #136a8a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -298,7 +254,7 @@ h2 {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0px;
-  background: linear-gradient(96deg, #ff6a00, #ff20a4);
+  background: linear-gradient(94deg, #267871, #136a8a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -.050rem;
@@ -317,6 +273,14 @@ p {
   font-family: "CircularStdBook", "Work Sans";
   font-size: 1.6rem;
   margin-bottom: -x;
+}
+
+.list {
+  margin-top: 1rem; 
+  padding-top:0;
+  font-family: "CircularStdBook", "Work Sans";
+  font-size: 1.6rem;
+  color: white;
 }
 
 span {
@@ -362,23 +326,27 @@ span {
   }
 
   #me {
-    height: 465px
+    height: 450px;
   }
 
   p {
-    font-size: 2.05rem
+    font-size: 2.05rem;
+  }
+
+  .list {
+    font-size: 2.05rem;
   }
 
   .footer {
     font-size: 18px;
   }
 
-  .heading1, .heading2, .heading3, .heading4, .heading5 {
-    font-size: 1em;
+  .heading {
+    font-size: 2.4rem;
   }
 
   .certifications {
-    font-size: 1em;
+    font-size: 2.4rem;
   }
 
   #communication {
