@@ -200,7 +200,7 @@ h1 {
   font-family: "Work Sans", "Montserrat SemiBold";
   color: white;
   margin-bottom: 0;
-  font-size: 10rem; 
+  font-size: 7.5rem; 
   line-height: 1.1; 
   z-index: 1;
   position: absolute;
@@ -284,7 +284,6 @@ span {
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 6rem; 
     letter-spacing: -0.35rem;
     left: 50%;
     white-space: nowrap;
