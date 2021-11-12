@@ -194,7 +194,6 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
-  
 }
 
 h1 {
@@ -285,7 +284,7 @@ span {
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 8rem; 
+    font-size: 7rem; 
     letter-spacing: -0.35rem;
     left: 50%;
     white-space: nowrap;
@@ -362,15 +361,9 @@ span {
   } 
 }
 
-@media (max-width: 1200px) {
-  #me {
-    width: 360px;
-  }
-}
-
 @media (max-width: 1400px) {
   #me {
-    width: 360px;
+    width: 300px;
   }
 }
 
