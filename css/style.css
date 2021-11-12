@@ -33,6 +33,11 @@
 
 } 
 
+@font-face{
+  src: url('../fonts/Rubik/Rubik-Regular.ttf')  format('truetype');
+  font-family: 'Rubik';
+}
+
 /* Website Features */
 
 .container {
@@ -171,12 +176,12 @@ a:hover {
 
 hr {
   margin-top: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   border-width: 0;
   border-top: 2px solid #000;
   width: 100%;
-  text-align:left;
-  margin-left:0;
+  text-align: left;
+  margin-left: 0;
   border-color: #404040;
 }
   
@@ -194,18 +199,17 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
-  
 }
 
 h1 {
   font-family: "Work Sans", "Montserrat SemiBold";
   color: white;
   margin-bottom: 0;
-  font-size: 10rem; 
+  font-size: 7.5rem; 
   line-height: 1.1; 
   z-index: 1;
   position: absolute;
-  left: 51.5%;
+  left: 50.75%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: 45%;
@@ -214,7 +218,7 @@ h1 {
 
 h2 {
   margin-top: 0;
-  margin-bottom: 2.6rem; 
+  margin-bottom: 2rem; 
   font-family: "Work Sans", "Montserrat SemiBold";
   color: white;
   font-size: 2.6rem; 
@@ -225,9 +229,9 @@ h2 {
   font-family: "Work Sans", "CircularStd";
   font-weight: 750;
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: #FFFFFF;
-  letter-spacing: -.050rem;
+  letter-spacing: -.025rem;
 }
 
 .certifications {
@@ -266,6 +270,10 @@ p {
   color: #B3B3B3;
 }
 
+ul {
+  padding-left: 2rem;
+}
+
 span {
   font-family: "CircularStd";
 }
@@ -285,7 +293,6 @@ span {
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 8rem; 
     letter-spacing: -0.35rem;
     left: 50%;
     white-space: nowrap;
@@ -315,7 +322,7 @@ span {
   }
 
   p {
-    font-size: 2.05rem;
+    font-size: 2rem;
   }
 
   .list {
@@ -327,11 +334,11 @@ span {
   }
 
   .heading {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
 
   .certifications {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
 
   #communication {
@@ -362,15 +369,9 @@ span {
   } 
 }
 
-@media (max-width: 1200px) {
-  #me {
-    width: 360px;
-  }
-}
-
 @media (max-width: 1400px) {
   #me {
-    width: 360px;
+    width: 280px;
   }
 }
 
