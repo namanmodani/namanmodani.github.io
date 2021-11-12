@@ -226,6 +226,7 @@ h1 {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: 45%;
+  font-weight: 800;
 }
 
 
@@ -309,6 +310,7 @@ span {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     white-space: nowrap;
+    font-weight: 800;
   }
 
   #subtitle {
@@ -326,7 +328,7 @@ span {
   }
 
   #me {
-    height: 450px;
+    height: 465px;
   }
 
   p {
@@ -352,6 +354,10 @@ span {
   #communication {
     font-size: 2rem;
   }
+
+  .space {
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -359,10 +365,3 @@ span {
     height: 300px;
   }
 }
-
-/* Additional Gradient Options 
-
-background: linear-gradient(95deg, #30d100, #ecff00); 
-background: linear-gradient(94deg, #00d18c, #00ffe6);
-
-*/
