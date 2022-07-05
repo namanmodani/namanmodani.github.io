@@ -2,6 +2,6 @@
 
 My corner of the internet. 
 
-Software Used: JavaScript, HTML, CSS, GitHub Pages
+[GitHub Repository](https://github.com/namanmodani/namanmodani.github.io) • [Web Application](https://namanmodani.com/)
 
-Website: www.namanmodani.com
+Software used: JavaScript, HTML, CSS, GitHub Pages.
