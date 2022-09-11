@@ -43,7 +43,7 @@
 .container {
 position: relative;
 width: 100%;
-max-width: 1325px;
+max-width: 1050px;
 margin: 0 auto;
 padding: 0 20px;
 box-sizing: border-box; 
@@ -68,7 +68,6 @@ box-sizing: border-box;
   box-sizing: border-box; 
 }
 
-
 /* Elements */
 
 html {
@@ -84,7 +83,7 @@ body {
   color: white;  
 }
 
-#particles-js{
+#particles-js {
   height: 100vh;
   width: 100%;
   background: #121212;
@@ -187,11 +186,12 @@ hr {
 /* Content */
 
 #me {
-  border-radius: 30px;
+  border-radius: 24px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+  size: 2%
 }
 
 h1 {
@@ -214,7 +214,6 @@ h2 {
   margin-bottom: 2rem; 
   font-family: "Work Sans", "Montserrat SemiBold";
   color: white;
-  font-size: 2.6rem; 
   line-height: 1.2;
 }
 
@@ -398,9 +397,9 @@ span {
   } 
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 12px) {
   #me {
-    height: 400px;
+    height: 360px;
     border-radius: 30px;
     display: inline;
     margin-left: auto;
@@ -436,9 +435,9 @@ span {
   } 
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1325px) {
   #me {
-    width: 280px;
+    width: 240px;
   }
 
   .projectimage {
