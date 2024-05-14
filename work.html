@@ -7,7 +7,7 @@
     <title>Naman Modani</title>
     <!-- Import Inter fonts -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="icon" type="image/png" href="images/favicon.png" async>
+    <link rel = "icon" type= "image/png" href = "images/favicon.png" async> 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -16,12 +16,11 @@
             font-family: 'Inter', sans-serif;
             font-size: 15.5px;
             line-height: 1.4; /* Adjusted line height */
-            color: white;
-            background-color: black;
+            color: #2B2B2B;
             margin: 0;
             padding: 0;
         }
-
+    
         .container {
             max-width: 480px;
             margin: 0 auto;
@@ -29,7 +28,7 @@
             margin-left: 5.5%; /* Add left margin to move content to the left */
             margin-top: 5.5%;
         }
-
+    
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -37,7 +36,7 @@
             font-weight: 500; /* Set font weight for navbar links */
             margin-bottom: 20px; /* Add margin bottom to create separation from content */
         }
-
+    
         .navbar a {
             color: #bfbfbf; /* Set default color for non-active links */
             text-decoration: none;
@@ -45,60 +44,58 @@
             margin-right: 20px;
             font-weight: 500; /* Set default font weight for navbar links */
         }
-
+    
         .navbar a:hover {
-            color: white;
+            color: #333;
         }
-
+    
         .navbar a.active {
-            color: white; /* Set color for selected item */
+            color: #000; /* Set color for selected item */
         }
-
+    
         /* Set font weight and style for paragraphs */
         p {
             font-family: 'Inter', sans-serif;
             font-weight: 350; /* Set regular font weight */
-            color: white;
+            color: #2B2B2B;
             margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
         }
-
+    
         /* Additional Styles */
         a {
-            color: white; /* Set default color for links to white */
+            color: black; /* Set default color for links to black */
             text-decoration: none;
         }
-
+    
         a:hover {
-            color: #ccc; /* Change color on hover */
+            color: #333; /* Change color on hover */
         }
-
+    
         a[href^="https://www.linkedin.com"], a[href^="https://www.github.com"], a[href^="mailto:"] {
             text-decoration: underline; /* Underline LinkedIn, GitHub, and email links */
         }
 
         .source-link {
-            color: #ccc; /* Set color to lighter gray */
+            color: #808080; /* Set color to gray */
             font-size: 14.5px; /* Set font size to slightly smaller */
         }
 
+
         .source-link + i {
             font-size: smaller; /* Reduce arrow size */
-            color: #ccc; /* Change arrow color to lighter gray */
+            color: #808080; /* Change arrow color to #b2b2b2 */
         }
+
 
         .proj-link {
             font-size: smaller; /* Reduce arrow size */
-            color: #ccc; /* Change arrow color to lighter gray */
+            color: #808080; /* Change arrow color to #b2b2b2 */
         }
 
         hr {
             margin-top: 20px; /* Adjust margin for horizontal rule */
             margin-bottom: 20px;
             opacity: 0.4; /* Reduce opacity for horizontal rule */
-        }
-
-        .work-content {
-            font-weight: 500;
         }
 
         /* Media query for phones */
@@ -114,11 +111,10 @@
                 font-family: 'Inter', sans-serif;
                 font-size: 15px;
                 line-height: 1.4; /* Adjusted line height */
-                color: white;
-                background-color: black;
+                color: #2B2B2B;
                 margin: 0;
                 padding: 0;
-            }
+        }
         }
 
         /* Media query for monitors and big screens */
@@ -127,7 +123,7 @@
                 max-width: 640px;
             }
         }
-    </style>
+    </style>    
 </head>
 
 <body>
@@ -136,52 +132,61 @@
             <div>
                 <a href="./index.html" id="homeLink">Naman Modani</a>
                 <a href="./work.html" id="workLink" class="active">Work</a>
-                <a href="./blog.html" id="blogLink">Blog</a>
+                <a href="./blog.html" id="blogLink">Blog</a> 
             </div>
         </div>
 
         <div class="work-content">
+            
             Experience
+
             <p><a href="https://careers.linkedin.com/apm" class="source-link" rel="noopener" target="_blank">LinkedIn</a> <i class="fa-solid fa-square-arrow-up-right"></i><br>
-                Associate Product Manager</p>
+            Associate Product Manager</p>
 
             <p><a href="https://slack.engineering/unleashing-impact-at-slacks-data-engineering-internship/" class="source-link" rel="noopener" target="_blank">Slack</a> <i class="fa-solid fa-square-arrow-up-right"></i><br>
-                Technical Program Manager</p>
+            Technical Program Manager</p>
 
             <p><a href="https://www.ericsson.com/en/careers/student-young-professionals/internships" class="source-link" rel="noopener" target="_blank">Ericsson</a> <i class="fa-solid fa-square-arrow-up-right"></i><br>
-                Software Engineer</p>
+            Software Engineer</p>
 
             <p><a href="https://namanmodani.github.io/old/pdfs/srs.pdf" class="source-link" rel="noopener" target="_blank">Stanford</a> <i class="fa-solid fa-square-arrow-up-right"></i><br>
-                Researcher</p>
+            Researcher</p>
         </div>
 
         <hr>
 
         <div class="work-content">
+            
             Honors
+
             <p><a href="https://codein.withgoogle.com/archive/2019/" class="source-link" rel="noopener" target="_blank">Google Code-in</a> <i class="fa-solid fa-square-arrow-up-right"></i><br>
-                Grand Prize Winner</p>
+            Grand Prize Winner</p>
+
         </div>
 
         <hr>
 
         <div class="work-content">
+            
             Projects
+
             <p><a href="https://solve.mit.edu/challenges/horizonprize/solutions/51857" rel="noopener" target="_blank">Denotia <i class="fa-solid fa-square-arrow-up-right proj-link"></i></a></p>
-
+            
             <p><a href="https://sandhi-the-connect.github.io/src/" rel="noopener" target="_blank">Sandhi <i class="fa-solid fa-square-arrow-up-right proj-link"></i></a></p>
-
+            
             <p><a href="https://www.youngscientistsjournal.com/" rel="noopener" target="_blank">Young Scientists Journal <i class="fa-solid fa-square-arrow-up-right proj-link"></i></a></p>
+
         </div>
+
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             var navbarLinks = document.querySelectorAll('.navbar a');
 
-            navbarLinks.forEach(function (link) {
-                link.addEventListener('click', function () {
-                    navbarLinks.forEach(function (navLink) {
+            navbarLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    navbarLinks.forEach(function(navLink) {
                         navLink.classList.remove('active');
                     });
 
