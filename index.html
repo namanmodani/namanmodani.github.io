@@ -7,7 +7,7 @@
     <title>Naman Modani</title>
     <!-- Import Inter fonts -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel = "icon" type= "image/png" href = "images/favicon.png" async> 
+    <link rel="icon" type="image/png" href="images/favicon.png" async>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -16,11 +16,12 @@
             font-family: 'Inter', sans-serif;
             font-size: 15.5px;
             line-height: 1.4; /* Adjusted line height */
-            color: #2B2B2B;
+            color: var(--text-color);
+            background-color: var(--bg-color);
             margin: 0;
             padding: 0;
         }
-    
+
         .container {
             max-width: 480px;
             margin: 0 auto;
@@ -28,7 +29,7 @@
             margin-left: 5.5%; /* Add left margin to move content to the left */
             margin-top: 5.5%;
         }
-    
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -36,45 +37,50 @@
             font-weight: 500; /* Set font weight for navbar links */
             margin-bottom: 20px; /* Add margin bottom to create separation from content */
         }
-    
+
         .navbar a {
-            color: #bfbfbf; /* Set default color for non-active links */
+            color: var(--navbar-link-color); /* Set default color for non-active links */
             text-decoration: none;
             transition: color 0.3s;
             margin-right: 20px;
             font-weight: 500; /* Set default font weight for navbar links */
         }
-    
+
         .navbar a:hover {
-            color: #333;
+            color: var(--navbar-link-hover-color);
         }
-    
+
         .navbar a.active {
-            color: #000; /* Set color for selected item */
+            color: var(--active-link-color); /* Set color for selected item */
         }
-    
+
         /* Set font weight and style for paragraphs */
         p {
             font-family: 'Inter', sans-serif;
             font-weight: 350; /* Set regular font weight */
-            color: #2B2B2B;
+            color: var(--text-color);
             margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
         }
-    
+
         /* Additional Styles */
         a {
-            color: black; /* Set default color for links to black */
+            color: var(--text-color); /* Set default color for links */
             text-decoration: underline; /* Underline LinkedIn, GitHub, and email links */
         }
-    
+
         a:hover {
-            color: #333; /* Change color on hover */
+            color: var(--text-color-hover); /* Change color on hover */
         }
 
         .icon-link {
             text-decoration: none;
             margin-right: 12px; /* Add margin between icons */
             font-size: 1.5em;
+            color: var(--text-color); /* Set icon color */
+        }
+
+        .icon-link:hover {
+            color: var(--text-color-hover); /* Change icon color on hover */
         }
 
         /* Media query for phones */
@@ -90,10 +96,11 @@
                 font-family: 'Inter', sans-serif;
                 font-size: 15px;
                 line-height: 1.4; /* Adjusted line height */
-                color: #2B2B2B;
+                color: var(--text-color);
+                background-color: var(--bg-color);
                 margin: 0;
                 padding: 0;
-        }
+            }
         }
 
         /* Media query for monitors and big screens */
@@ -102,8 +109,7 @@
                 max-width: 640px;
             }
         }
-
-    </style>    
+    </style>
 </head>
 
 <body>
@@ -112,21 +118,45 @@
             <div>
                 <a href="./index.html" id="homeLink" class="active">Naman Modani</a>
                 <a href="./work.html" id="workLink">Work</a>
-                <a href="./blog.html" id="blogLink">Blog</a>   
+                <a href="./blog.html" id="blogLink">Blog</a>
             </div>
+            <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto"
+                aria-live="polite">
+                <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                    <mask class="moon" id="moon-mask">
+                        <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                        <circle cx="24" cy="10" r="6" fill="black" />
+                    </mask>
+                    <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                    <g class="sun-beams" stroke="currentColor">
+                        <line x1="12" y1="1" x2="12" y2="3" />
+                        <line x1="12" y1="21" x2="12" y2="23" />
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                        <line x1="1" y1="12" x2="3" y2="12" />
+                        <line x1="21" y1="12" x2="23" y2="12" />
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                    </g>
+                </svg>
+            </button>
         </div>
 
         <p>I'm passionate about shaping and shipping meaningful products. </p>
-        <p>I spend most of my time learning. I'm curious about most things (I'm glad I'm not a cat), especially engineering, product, and finance. A big chunk of this learning happens at <a href="https://www.ucla.edu/" rel="noopener" target="_blank">UCLA</a>.</p>
-        <p>Lately, I've been focused on spending my time intentionally. I like to jump off cliffs, camp, drive, dance, play chess, and listen to classic rock. I also make horrible puns from time to time.</p>
-        <p>Reach out to me at modani [dot] naman [at] gmail [dot] com. And yes, I still have particle.js up on a truncated version of my <a href="./old/index.html" rel="noopener" target="_blank">old website</a>.</p> 
+        <p>I spend most of my time learning. I'm curious about most things (I'm glad I'm not a cat), especially
+            engineering, product, and finance. A big chunk of this learning happens at <a
+                href="https://www.ucla.edu/" rel="noopener" target="_blank">UCLA</a>.</p>
+        <p>Lately, I've been focused on spending my time intentionally. I like to jump off cliffs, camp, drive, dance,
+            play chess, and listen to classic rock. I also make horrible puns from time to time.</p>
+        <p>Reach out to me at modani [dot] naman [at] gmail [dot] com. And yes, I still have particle.js up on a
+            truncated version of my <a href="./old/index.html" rel="noopener" target="_blank">old website</a>.</p>
 
         <div style="margin-top: 22px;"></div>
 
         <a href="https://www.linkedin.com/in/namanmodani" rel="noopener" target="_blank" class="icon-link">
             <i class="fa-brands fa-linkedin"></i>
         </a>
-        
+
         <a href="https://github.com/namanmodani" rel="noopener" target="_blank" class="icon-link">
             <i class="fa-brands fa-github"></i>
         </a>
@@ -134,22 +164,81 @@
         <a href="https://twitter.com/namanmodani" rel="noopener" target="_blank" class="icon-link">
             <i class="fa-brands fa-twitter"></i>
         </a>
-        
+
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             var navbarLinks = document.querySelectorAll('.navbar a');
 
-            navbarLinks.forEach(function(link) {
-                link.addEventListener('click', function() {
-                    navbarLinks.forEach(function(navLink) {
+            navbarLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    navbarLinks.forEach(function (navLink) {
                         navLink.classList.remove('active');
                     });
 
                     link.classList.add('active');
                 });
             });
+
+            const storageKey = 'theme-preference'
+
+            const onClick = () => {
+                // flip current value
+                theme.value = theme.value === 'light'
+                    ? 'dark'
+                    : 'light'
+
+                setPreference()
+            }
+
+            const getColorPreference = () => {
+                if (localStorage.getItem(storageKey))
+                    return localStorage.getItem(storageKey)
+                else
+                    return window.matchMedia('(prefers-color-scheme: dark)').matches
+                        ? 'dark'
+                        : 'light'
+            }
+
+            const setPreference = () => {
+                localStorage.setItem(storageKey, theme.value)
+                reflectPreference()
+            }
+
+            const reflectPreference = () => {
+                document.firstElementChild
+                    .setAttribute('data-theme', theme.value)
+
+                document
+                    .querySelector('#theme-toggle')
+                    ?.setAttribute('aria-label', theme.value)
+            }
+
+            const theme = {
+                value: getColorPreference(),
+            }
+
+            // set early so no page flashes / CSS is made aware
+            reflectPreference()
+
+            window.onload = () => {
+                // set on load so screen readers can see latest value on the button
+                reflectPreference()
+
+                // now this script can find and listen for clicks on the control
+                document
+                    .querySelector('#theme-toggle')
+                    .addEventListener('click', onClick)
+            }
+
+            // sync with system changes
+            window
+                .matchMedia('(prefers-color-scheme: dark)')
+                .addEventListener('change', ({ matches: isDark }) => {
+                    theme.value = isDark ? 'dark' : 'light'
+                    setPreference()
+                })
         });
     </script>
 </body>

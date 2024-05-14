@@ -7,7 +7,7 @@
     <title>Naman Modani</title>
     <!-- Import Inter fonts -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel = "icon" type= "image/png" href = "images/favicon.png" async> 
+    <link rel="icon" type="image/png" href="images/favicon.png" async>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -16,11 +16,12 @@
             font-family: 'Inter', sans-serif;
             font-size: 15.5px;
             line-height: 1.4; /* Adjusted line height */
-            color: #2B2B2B;
+            color: white;
+            background-color: black;
             margin: 0;
             padding: 0;
         }
-    
+
         .container {
             max-width: 480px;
             margin: 0 auto;
@@ -28,7 +29,7 @@
             margin-left: 5.5%; /* Add left margin to move content to the left */
             margin-top: 5.5%;
         }
-    
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -36,7 +37,7 @@
             font-weight: 500; /* Set font weight for navbar links */
             margin-bottom: 20px; /* Add margin bottom to create separation from content */
         }
-    
+
         .navbar a {
             color: #bfbfbf; /* Set default color for non-active links */
             text-decoration: none;
@@ -44,44 +45,44 @@
             margin-right: 20px;
             font-weight: 500; /* Set default font weight for navbar links */
         }
-    
+
         .navbar a:hover {
-            color: #333;
+            color: white;
         }
-    
+
         .navbar a.active {
-            color: #000; /* Set color for selected item */
+            color: white; /* Set color for selected item */
         }
-    
+
         /* Set font weight and style for paragraphs */
         p {
             font-family: 'Inter', sans-serif;
             font-weight: 350; /* Set regular font weight */
-            color: #2B2B2B;
+            color: white;
             margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
         }
 
         .dark-grey {
-            color: #444; /* Dark grey color */
+            color: #ccc; /* Lighter grey color for text */
         }
 
         /* Additional Styles */
         a {
-            color: black; /* Set default color for links to black */
+            color: white; /* Set default color for links to white */
             text-decoration: none;
         }
-    
+
         a:hover {
-            color: #333; /* Change color on hover */
+            color: #ccc; /* Change color on hover */
         }
-    
+
         a[href^="https://www.linkedin.com"], a[href^="https://www.github.com"], a[href^="mailto:"] {
             text-decoration: underline; /* Underline LinkedIn, GitHub, and email links */
         }
 
         .source-link + i {
             font-size: smaller; /* Reduce arrow size */
-            color: #b2b2b2; /* Change arrow color to #b2b2b2 */
+            color: #ccc; /* Change arrow color to lighter grey */
         }
 
         /* Media query for phones */
@@ -97,10 +98,11 @@
                 font-family: 'Inter', sans-serif;
                 font-size: 15px;
                 line-height: 1.4; /* Adjusted line height */
-                color: #2B2B2B;
+                color: white;
+                background-color: black;
                 margin: 0;
                 padding: 0;
-        }
+            }
         }
 
         /* Media query for monitors and big screens */
@@ -139,7 +141,7 @@
             margin: auto; /* Adjust margin for horizontal rule */
             opacity: 0.4; /* Reduce opacity for horizontal rule */
         }
-    </style>    
+    </style>
 </head>
 
 <body>
@@ -148,7 +150,7 @@
             <div>
                 <a href="./index.html" id="homeLink">Naman Modani</a>
                 <a href="./work.html" id="workLink">Work</a>
-                <a href="./blog.html" id="blogLink" class="active">Blog</a>                
+                <a href="./blog.html" id="blogLink" class="active">Blog</a>
             </div>
         </div>
 
@@ -175,12 +177,12 @@
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             var navbarLinks = document.querySelectorAll('.navbar a');
 
-            navbarLinks.forEach(function(link) {
-                link.addEventListener('click', function() {
-                    navbarLinks.forEach(function(navLink) {
+            navbarLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    navbarLinks.forEach(function (navLink) {
                         navLink.classList.remove('active');
                     });
 
