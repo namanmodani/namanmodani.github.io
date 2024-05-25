@@ -21,7 +21,7 @@ const Work = () => {
       <hr />
 
       <p style={{ fontWeight: 400 }}>Honors</p>
-      <p><a href="https://codein.withgoogle.com/archive/2019/" className="source-link" rel="noreferrer" target="_blank">Google Code-in <FontAwesomeIcon icon={faSquareArrowUpRight} /></a><br />
+      <p><a href="https://opensource.googleblog.com/2020/02/announcing-our-google-code-in-2019.html" className="source-link" rel="noreferrer" target="_blank">Google Code-in <FontAwesomeIcon icon={faSquareArrowUpRight} /></a><br />
       Grand Prize Winner</p>
 
       <hr />
