@@ -147,6 +147,6 @@ hr {
 /* Media query for monitors and big screens */
 @media only screen and (min-width: 1600px) {
     .container {
-        max-width: 600px;
+        max-width: 620px;
     }
 }
