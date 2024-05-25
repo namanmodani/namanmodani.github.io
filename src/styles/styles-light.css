@@ -15,11 +15,11 @@ body {
 }
 
 .container {
-    max-width: 480px;
+    max-width: 520px;
     margin: 0 auto;
     padding: 20px;
     margin-left: 5.5%; /* Add left margin to move content to the left */
-    margin-top: 5.5%;
+    margin-top: 4.5%;
 }
 
 .navbar {
@@ -146,6 +146,6 @@ hr {
 /* Media query for monitors and big screens */
 @media only screen and (min-width: 1600px) {
     .container {
-        max-width: 640px;
+        max-width: 600px;
     }
 }
