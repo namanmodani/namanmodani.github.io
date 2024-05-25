@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/namanmodani.github.io/static/css/main.e07f18a8.css",
+    "main.js": "/namanmodani.github.io/static/js/main.14aa1bc6.js",
+    "index.html": "/namanmodani.github.io/index.html",
+    "main.e07f18a8.css.map": "/namanmodani.github.io/static/css/main.e07f18a8.css.map",
+    "main.14aa1bc6.js.map": "/namanmodani.github.io/static/js/main.14aa1bc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e07f18a8.css",
+    "static/js/main.14aa1bc6.js"
+  ]
+}
