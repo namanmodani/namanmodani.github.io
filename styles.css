@@ -59,13 +59,14 @@ a:hover {
     color: #333; /* Change color on hover */
 }
 
+.fa-square-arrow-up-right {
+    font-size: smaller;
+    color: #666;
+}
+
 /* Specific styles for different pages */
 .link-underline { 
     text-decoration: underline;
-}
-
-.link-dark-grey a {
-    color: #666;
 }
 
 /* Icon links */
