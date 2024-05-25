@@ -1,5 +1,8 @@
 /* styles.css */
 /* Styles */
+
+@import url('https://rsms.me/inter/inter.css');
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 15.5px;
