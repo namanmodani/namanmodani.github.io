@@ -1,7 +1,12 @@
 /* styles.css */
 
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.ttf') format('ttf');
+}
+
 body {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 15.5px;
     line-height: 1.42; /* Adjusted line height */
     color: #2B2B2B;
@@ -43,7 +48,7 @@ body {
 
 /* Set font weight and style for paragraphs */
 p {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 350; /* Set regular font weight */
     color: #2B2B2B;
     margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
