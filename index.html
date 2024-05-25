@@ -7,103 +7,11 @@
     <title>Naman Modani</title>
     <!-- Import Inter fonts -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel = "icon" type= "image/png" href = "images/favicon.png" async> 
+    <link rel="icon" type="image/png" href="images/favicon.png" async>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Styles */
-        body {
-            font-family: 'Inter', sans-serif;
-            font-size: 15.5px;
-            line-height: 1.4; /* Adjusted line height */
-            color: #2B2B2B;
-            margin: 0;
-            padding: 0;
-        }
-    
-        .container {
-            max-width: 480px;
-            margin: 0 auto;
-            padding: 20px;
-            margin-left: 5.5%; /* Add left margin to move content to the left */
-            margin-top: 5.5%;
-        }
-    
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: 500; /* Set font weight for navbar links */
-            margin-bottom: 20px; /* Add margin bottom to create separation from content */
-        }
-    
-        .navbar a {
-            color: #bfbfbf; /* Set default color for non-active links */
-            text-decoration: none;
-            transition: color 0.3s;
-            margin-right: 20px;
-            font-weight: 500; /* Set default font weight for navbar links */
-        }
-    
-        .navbar a:hover {
-            color: #333;
-        }
-    
-        .navbar a.active {
-            color: #000; /* Set color for selected item */
-        }
-    
-        /* Set font weight and style for paragraphs */
-        p {
-            font-family: 'Inter', sans-serif;
-            font-weight: 350; /* Set regular font weight */
-            color: #2B2B2B;
-            margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
-        }
-    
-        /* Additional Styles */
-        a {
-            color: black; /* Set default color for links to black */
-            text-decoration: underline; /* Underline LinkedIn, GitHub, and email links */
-        }
-    
-        a:hover {
-            color: #333; /* Change color on hover */
-        }
-
-        .icon-link {
-            text-decoration: none;
-            margin-right: 12px; /* Add margin between icons */
-            font-size: 1.5em;
-        }
-
-        /* Media query for phones */
-        @media only screen and (max-width: 600px) {
-            .container {
-                width: 80%; /* Set width to 80% */
-                margin: 0 auto; /* Center the container */
-                padding: 10px; /* Adjust padding for smaller screens */
-                margin-top: 5%;
-            }
-
-            body {
-                font-family: 'Inter', sans-serif;
-                font-size: 15px;
-                line-height: 1.4; /* Adjusted line height */
-                color: #2B2B2B;
-                margin: 0;
-                padding: 0;
-        }
-        }
-
-        /* Media query for monitors and big screens */
-        @media only screen and (min-width: 1600px) {
-            .container {
-                max-width: 640px;
-            }
-        }
-
-    </style>    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -112,14 +20,14 @@
             <div>
                 <a href="./index.html" id="homeLink" class="active">Naman Modani</a>
                 <a href="./work.html" id="workLink">Work</a>
-                <a href="./blog.html" id="blogLink">Blog</a>   
+                <a href="./blog.html" id="blogLink">Blog</a>
             </div>
         </div>
 
         <p>I'm passionate about shaping and shipping meaningful products. </p>
-        <p>I spend most of my time learning. I'm curious about most things (I'm glad I'm not a cat), especially engineering, product, and finance. A big chunk of this learning happens at <a href="https://www.ucla.edu/" rel="noopener" target="_blank">UCLA</a>.</p>
+        <p>I spend most of my time learning. I'm curious about most things (I'm glad I'm not a cat), especially engineering, product, and finance. A big chunk of this learning happens at <a href="https://www.ucla.edu/" rel="noopener" target="_blank" class="link-underline">UCLA</a>.</p>
         <p>Lately, I've been focused on spending my time intentionally. I like to jump off cliffs, camp, drive, dance, and listen to classic rock. I love poker, Porsches, and puns.</p>
-        <p>Reach out to me at modani [dot] naman [at] gmail [dot] com. And yes, I still have particle.js up on a truncated version of my <a href="./old/index.html" rel="noopener" target="_blank">old website</a>.</p> 
+        <p>Reach out to me at modani [dot] naman [at] gmail [dot] com. And yes, I still have particle.js up on a truncated version of my <a href="./old/index.html" rel="noopener" target="_blank" class="link-underline">old website</a>.</p> 
 
         <div style="margin-top: 22px;"></div>
 
@@ -136,7 +44,6 @@
         </a>
         
     </div>
-
 </body>
 
 </html>

@@ -7,139 +7,11 @@
     <title>Naman Modani</title>
     <!-- Import Inter fonts -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel = "icon" type= "image/png" href = "images/favicon.png" async> 
+    <link rel="icon" type="image/png" href="images/favicon.png" async>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Styles */
-        body {
-            font-family: 'Inter', sans-serif;
-            font-size: 15.5px;
-            line-height: 1.4; /* Adjusted line height */
-            color: #2B2B2B;
-            margin: 0;
-            padding: 0;
-        }
-    
-        .container {
-            max-width: 480px;
-            margin: 0 auto;
-            padding: 20px;
-            margin-left: 5.5%; /* Add left margin to move content to the left */
-            margin-top: 5.5%;
-        }
-    
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: 500; /* Set font weight for navbar links */
-            margin-bottom: 20px; /* Add margin bottom to create separation from content */
-        }
-    
-        .navbar a {
-            color: #bfbfbf; /* Set default color for non-active links */
-            text-decoration: none;
-            transition: color 0.3s;
-            margin-right: 20px;
-            font-weight: 500; /* Set default font weight for navbar links */
-        }
-    
-        .navbar a:hover {
-            color: #333;
-        }
-    
-        .navbar a.active {
-            color: #000; /* Set color for selected item */
-        }
-    
-        /* Set font weight and style for paragraphs */
-        p {
-            font-family: 'Inter', sans-serif;
-            font-weight: 350; /* Set regular font weight */
-            color: #2B2B2B;
-            margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
-        }
-
-        .dark-grey {
-            color: #444; /* Dark grey color */
-        }
-
-        /* Additional Styles */
-        a {
-            color: black; /* Set default color for links to black */
-            text-decoration: none;
-        }
-    
-        a:hover {
-            color: #333; /* Change color on hover */
-        }
-    
-        a[href^="https://www.linkedin.com"], a[href^="https://www.github.com"], a[href^="mailto:"] {
-            text-decoration: underline; /* Underline LinkedIn, GitHub, and email links */
-        }
-
-        .source-link + i {
-            font-size: smaller; /* Reduce arrow size */
-            color: #b2b2b2; /* Change arrow color to #b2b2b2 */
-        }
-
-        /* Media query for phones */
-        @media only screen and (max-width: 600px) {
-            .container {
-                width: 80%; /* Set width to 80% */
-                margin: 0 auto; /* Center the container */
-                padding: 10px; /* Adjust padding for smaller screens */
-                margin-top: 5%;
-            }
-
-            body {
-                font-family: 'Inter', sans-serif;
-                font-size: 15px;
-                line-height: 1.4; /* Adjusted line height */
-                color: #2B2B2B;
-                margin: 0;
-                padding: 0;
-        }
-        }
-
-        /* Media query for monitors and big screens */
-        @media only screen and (min-width: 1600px) {
-            .container {
-                max-width: 640px;
-            }
-        }
-
-        /* Custom table-like layout */
-        .row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .note {
-            flex-basis: 70%; /* Adjust width of note column */
-        }
-
-        .date {
-            flex-basis: 30%; /* Adjust width of date column */
-            text-align: right; /* Align text to the right */
-        }
-
-        .website {
-            flex-basis: 30%; /* Adjust width of website column */
-            text-align: right; /* Align text to the right */
-            font-size: 14px; /* Make font size smaller for website */
-            color: #666; /* Darker grey color for website */
-        }
-
-        /* Reduce margin between rows */
-        hr {
-            margin: auto; /* Adjust margin for horizontal rule */
-            opacity: 0.4; /* Reduce opacity for horizontal rule */
-        }
-    </style>    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -148,7 +20,7 @@
             <div>
                 <a href="./index.html" id="homeLink">Naman Modani</a>
                 <a href="./work.html" id="workLink">Work</a>
-                <a href="./blog.html" id="blogLink" class="active">Blog</a>                
+                <a href="./blog.html" id="blogLink" class="active">Blog</a>
             </div>
         </div>
 
@@ -166,14 +38,13 @@
                 <p class="note"><a href="https://app.beliapp.com/lists/namanmodani?utm_medium=profile_link_to_webapp&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0rNyUwsKNBLztfPySwuKdbPS8xNzMvNT0nMywQAE5z%2FNCQAAAA%3D&_branch_match_id=1265128734521922815" rel="noopener" target="_blank">Food (since I procrastinated on aforementioned cooking) <i class="fa-solid fa-square-arrow-up-right"></i></a></p>
                 <p class="website">Beli</p>
             </div>
-            <hr>
+            <hr style="margin: auto; opacity: 0.4">
             <div class="row">
-                <p class="note"><a href="https://www.palette.build/list/b7e92e89-7a57-4226-af70-222fbbc9dfea" rel="noopener" target="_blank">Television <i class="fa-solid fa-square-arrow-up-right"></i></a></p>
+                <p class="note"><a href="https://www.palette.build/list/b7e92e89-7a57-4226-af70-222fbbc9dfea" rel="noopener" target="_blank">Elite Television <i class="fa-solid fa-square-arrow-up-right"></i></a></p>
                 <p class="website">Palette</p>
             </div>
         </section>
     </div>
-
 </body>
 
 </html>
