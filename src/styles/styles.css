@@ -9,7 +9,8 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 15.5px;
     line-height: 1.42; /* Adjusted line height */
-    color: #2B2B2B;
+    background-color: #000000;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +32,7 @@ body {
 }
 
 .navbar a {
-    color: #bfbfbf;
+    color: #a6a6a6;
     text-decoration: none;
     transition: color 0.3s;
     margin-right: 24px;
@@ -39,34 +40,34 @@ body {
 }
 
 .navbar a:hover {
-    color: #333;
+    color: #FFFFFF;
 }
 
 .navbar a.active {
-    color: #000; /* Set color for selected item */
+    color: #FFFFFF; /* Set color for selected item */
 }
 
 /* Set font weight and style for paragraphs */
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 350; /* Set regular font weight */
-    color: #2B2B2B;
+    color: #FFFFFF;
     margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
 }
 
 /* Common styles for links */
 a {
-    color: black; /* Set default color for links to black */
+    color: white; /* Set default color for links to black */
     text-decoration: none;
 }
 
 a:hover {
-    color: #333; /* Change color on hover */
+    color: #FFFFFF; /* Change color on hover */
 }
 
 .fa-square-arrow-up-right {
     font-size: smaller;
-    color: #666;
+    color: #999;
 }
 
 /* Specific styles for different pages */
@@ -82,18 +83,18 @@ a:hover {
 }
 /* Source links */
 .source-link {
-    color: #808080; /* Set color to gray */
+    color: #A6A6A6; /* Set color to slightly lighter gray */
     font-size: 14.5px; /* Set font size to slightly smaller */
 }
 
 .source-link + i {
     font-size: smaller; /* Reduce arrow size */
-    color: #808080; /* Change arrow color to #b2b2b2 */
+    color: #A6A6A6; /* Change arrow color to slightly lighter gray */
 }
 
 .proj-link {
     font-size: smaller; /* Reduce arrow size */
-    color: #808080; /* Change arrow color to #b2b2b2 */
+    color: #A6A6A6; /* Change arrow color to slightly lighter gray */
 }
 
 hr {
@@ -104,7 +105,7 @@ hr {
 
 /* Dark grey text */
 .dark-grey {
-    color: #444; /* Dark grey color */
+    color: #FFFFFF; /* Dark grey color */
 }
 
 /* Custom table-like layout */
@@ -126,7 +127,7 @@ hr {
 
 .website {
     font-size: 14px; /* Make font size smaller for website */
-    color: #666; /* Darker grey color for website */
+    color: #a6a6a6; /* Darker grey color for website */
 }
 
 /* Media query for phones */
