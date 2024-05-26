@@ -10,7 +10,7 @@ body {
     font-size: 15.8px;
     line-height: 1.42; /* Adjusted line height */
     background-color: #FFFFFF;
-    color: #2B2B2B;
+    color: #000000;
     margin: 0;
     padding: 0;
 }
@@ -68,7 +68,7 @@ body[data-theme="dark"] {
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 300; /* Set regular font weight */
-    color: #2B2B2B;
+    color: #000000;
     margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
 }
 
