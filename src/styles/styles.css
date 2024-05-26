@@ -202,11 +202,6 @@ body[data-theme="dark"] .dark-grey {
     font-size: 14.3px;
     color: #666;
 }
-
-.blog-container {
-    margin: 0 auto;
-    max-width: 600px;
-}
   
 .section {
     margin-bottom: 40px;
