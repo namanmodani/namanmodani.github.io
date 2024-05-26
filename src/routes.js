@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Work from './components/Work';
 import Blog from './components/Blog';
+import Picks from './components/Picks';
 
 const AppRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const AppRoutes = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/picks" element={<Picks />} />
         </Routes>
       </div>
     </Router>

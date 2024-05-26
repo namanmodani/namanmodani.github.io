@@ -7,17 +7,7 @@ const Blog = () => {
   return (
     <div className="blog-container">
       <section className="section">
-        <p className="section-title">Internet Picks</p>
-        <div className="row">
-          <p className="note"><a href="https://stratechery.com/" rel="noreferrer" target="_blank">Stratechery <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Ben Thompson</p>
-        </div>
-        <hr className="divider" />
-        <div className="row">
-          <p className="note"><a href="https://waitbutwhy.com/" rel="noreferrer" target="_blank">Wait But Why <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Tim Urban</p>
-        </div>
-        <hr className="divider" />
+        <p className="section-title"><a href="/#/picks" rel="noreferrer" target="_blank">Internet Picks <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
         <div className="row">
           <p className="note"><a href="https://www.theguardian.com/society/2016/apr/07/the-sugar-conspiracy-robert-lustig-john-yudkin" rel="noreferrer" target="_blank">The Sugar Conspiracy <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
           <p className="website">Ian Leslie</p>
@@ -29,8 +19,18 @@ const Blog = () => {
         </div>
         <hr className="divider" />
         <div className="row">
-          <p className="note"><a href="https://www.dancarlin.com/hardcore-history-series/" rel="noreferrer" target="_blank">Hardcore History <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Dan Carlin</p>
+          <p className="note"><a href="https://youtu.be/W608u6sBFpo?si=1A5KhJQh01WX9DVY" rel="noreferrer" target="_blank">Blitzscaling <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+          <p className="website">Brian Chesky</p>
+        </div>
+        <hr className="divider" />
+        <div className="row">
+          <p className="note"><a href="https://www.joshworth.com/dev/pixelspace/pixelspace_solarsystem.html" rel="noreferrer" target="_blank">If the Moon Were Only 1 Pixel <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+          <p className="website">Josh Worth</p>
+        </div>
+        <hr className="divider" />
+        <div className="row">
+          <p className="note"><a href="https://ncase.me/trust/" rel="noreferrer" target="_blank">The Evolution of Trust <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+          <p className="website">Nicky Case</p>
         </div>
       </section>
 

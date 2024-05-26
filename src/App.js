@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Work from './components/Work';
 import Blog from './components/Blog';
+import Picks from './components/Picks';
 import './styles/styles.css';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog />
+          </Route>
+          <Route path="/picks">
+            <Picks />
           </Route>
         </Switch>
       </div>
