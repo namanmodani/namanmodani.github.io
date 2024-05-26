@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    font-size: 15.5px;
+    font-size: 15.8px;
     line-height: 1.42; /* Adjusted line height */
     background-color: #FFFFFF;
     color: #2B2B2B;
@@ -67,7 +67,7 @@ body[data-theme="dark"] {
 /* Set font weight and style for paragraphs */
 p {
     font-family: 'Inter', sans-serif;
-    font-weight: 350; /* Set regular font weight */
+    font-weight: 300; /* Set regular font weight */
     color: #2B2B2B;
     margin-bottom: 10px; /* Added margin bottom for better separation between paragraphs */
 }
@@ -117,7 +117,7 @@ a[data-theme="dark"]:hover {
 /* Source links */
 .source-link {
     color: #808080; /* Set color to gray */
-    font-size: 14.5px; /* Set font size to slightly smaller */
+    font-size: 14.8px; /* Set font size to slightly smaller */
 }
 
 .source-link[data-theme="dark"] {
@@ -175,7 +175,7 @@ hr {
 }
 
 .website {
-    font-size: 14px; /* Make font size smaller for website */
+    font-size: 14.3px; /* Make font size smaller for website */
     color: #666; /* Darker grey color for website */
 }
 
