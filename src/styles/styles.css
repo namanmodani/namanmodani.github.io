@@ -115,16 +115,18 @@ body[data-theme="dark"] a {
 }
 
 a:hover {
-    color: #333;
+    color: #666;
+    transition: color 0.3s;
 }
 
 body[data-theme="dark"] a:hover {
-    color: #FFFFFF;
+    color: #BFBFBF;
 }
 
 .fa-square-arrow-up-right {
     font-size: smaller;
     color: #666;
+    vertical-align: -0.1em;
 }
 
 body[data-theme="dark"] .fa-square-arrow-up-right {

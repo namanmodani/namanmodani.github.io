@@ -2,36 +2,33 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 import '../styles/styles.css';  // Import the CSS file
+import picksData from '../data/picksData.json'; // Import the JSON data
+import recsData from '../data/recsData.json'; // Import the JSON data
 
 const Blog = () => {
+  const firstFivePicks = picksData.slice(0, 5); // Get the first 5 items from picksData
+
   return (
     <div className="blog-container">
       <section className="section">
-        <p className="section-title"><a href="/#/picks" rel="noreferrer">Internet Picks <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-        <div className="row">
-          <p className="note"><a href="https://www.theguardian.com/society/2016/apr/07/the-sugar-conspiracy-robert-lustig-john-yudkin" rel="noreferrer" target="_blank">The Sugar Conspiracy <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Ian Leslie</p>
-        </div>
-        <hr className="divider" />
-        <div className="row">
-          <p className="note"><a href="https://www.newyorker.com/magazine/2012/12/24/utopian-for-beginners" rel="noreferrer" target="_blank">Utopian for Beginners <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Joshua Foer</p>
-        </div>
-        <hr className="divider" />
-        <div className="row">
-          <p className="note"><a href="https://youtu.be/W608u6sBFpo?si=1A5KhJQh01WX9DVY" rel="noreferrer" target="_blank">Blitzscaling <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Brian Chesky</p>
-        </div>
-        <hr className="divider" />
-        <div className="row">
-          <p className="note"><a href="https://www.joshworth.com/dev/pixelspace/pixelspace_solarsystem.html" rel="noreferrer" target="_blank">If the Moon Were Only 1 Pixel <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Josh Worth</p>
-        </div>
-        <hr className="divider" />
-        <div className="row">
-          <p className="note"><a href="https://ncase.me/trust/" rel="noreferrer" target="_blank">The Evolution of Trust <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Nicky Case</p>
-        </div>
+        <p className="section-title">
+          <a href="/#/picks" rel="noreferrer">
+            Internet Picks <FontAwesomeIcon icon={faSquareArrowUpRight} />
+          </a>
+        </p>
+        {firstFivePicks.map((pick, index) => (
+          <div key={index}>
+            <div className="row">
+              <p className="note">
+                <a href={pick.link} rel="noreferrer" target="_blank">
+                  {pick.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                </a>
+              </p>
+              <p className="website">{pick.author}</p>
+            </div>
+            {index < firstFivePicks.length - 1 && <hr className="divider" />}
+          </div>
+        ))}
       </section>
 
       <section className="section">
@@ -43,15 +40,19 @@ const Blog = () => {
 
       <section className="section">
         <p className="section-title">Recs</p>
-        <div className="row">
-          <p className="note"><a href="https://app.beliapp.com/lists/namanmodani?utm_medium=profile_link_to_webapp&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0rNyUwsKNBLztfPySwuKdbPS8xNzMvNT0nMywQAE5z%2FNCQAAAA%3D&_branch_match_id=1265128734521922815" rel="noreferrer" target="_blank">Food (since I procrastinated on aforementioned cooking) <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Beli</p>
-        </div>
-        <hr className="divider" />
-        <div className="row">
-          <p className="note"><a href="https://www.palette.build/list/b7e92e89-7a57-4226-af70-222fbbc9dfea" rel="noreferrer" target="_blank">Elite Television <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Palette</p>
-        </div>
+        {recsData.map((rec, index) => (
+          <div key={index}>
+            <div className="row">
+              <p className="note">
+                <a href={rec.link} rel="noreferrer" target="_blank">
+                  {rec.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                </a>
+              </p>
+              <p className="website">{rec.author}</p>
+            </div>
+            {index < recsData.length - 1 && <hr className="divider" />}
+          </div>
+        ))}
       </section>
     </div>
   );
