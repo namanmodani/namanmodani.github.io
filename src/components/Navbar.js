@@ -40,7 +40,7 @@ const Navbar = () => {
           duration={750}
           toggled={isToggled}
           onToggle={handleToggle}
-          className="custom-Eclipse-toggle"
+          className="custom-eclipse-toggle"
         />
       </div>
     </div>

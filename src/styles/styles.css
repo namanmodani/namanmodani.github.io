@@ -69,12 +69,12 @@ body[data-theme="dark"] .navbar a.active {
     align-items: center;
 }
   
-.custom-Eclipse-toggle {
+.custom-eclipse-toggle {
     font-size: 1.45em;
     color: #000000;
 }
 
-body[data-theme="dark"] .custom-Eclipse-toggle {
+body[data-theme="dark"] .custom-eclipse-toggle {
     color: #FFFFFF;
 }
 
