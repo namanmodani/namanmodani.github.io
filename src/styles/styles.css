@@ -79,8 +79,6 @@ body[data-theme="dark"] .custom-eclipse-toggle {
 }
 
 .toggle-theme {
-    background: none;
-    border: none;
     font-size: 1em;
     cursor: pointer;
     color: #000000;
@@ -220,7 +218,7 @@ body[data-theme="dark"] .website {
 /* Media query for phones */
 @media only screen and (max-width: 600px) {
     .container {
-        width: 80%; /* Set width to 80% */
+        width: 82%; /* Set width to 80% */
         margin: 0 auto; /* Center the container */
         padding: 10px; /* Adjust padding for smaller screens */
         margin-top: 5%;
@@ -228,6 +226,17 @@ body[data-theme="dark"] .website {
 
     body {
         font-size: 15px;
+    }
+
+    .navbar div a {
+        display: inline-block; /* Ensure the link behaves as a block element */
+        overflow: hidden; /* Hide any overflow text */
+        text-overflow: ellipsis; /* Display an ellipsis (...) when text overflows */
+        max-width: 100%; /* Ensure the link doesn't exceed its container's width */
+    }
+
+    .navbar a {
+        margin-right: 18px;
     }
 }
 
