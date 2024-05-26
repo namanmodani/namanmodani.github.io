@@ -193,6 +193,10 @@ body[data-theme="dark"] .dark-grey {
     flex-basis: 70%;
 }
 
+.temp {
+    flex-basis: 100%;
+}
+
 .date, .website {
     flex-basis: 35%;
     text-align: right;

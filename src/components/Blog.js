@@ -37,7 +37,7 @@ const Blog = () => {
       <section className="section">
         <p className="section-title">Field Notes</p>
         <div className="row">
-          <p className="note">This section is a WIP. Let me cook 🧑‍🍳</p>
+          <p className="temp-note">This section is a WIP. Let me cook 🧑‍🍳</p>
         </div>
       </section>
 
