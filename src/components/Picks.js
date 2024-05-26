@@ -32,6 +32,11 @@ const Picks = () => {
           <p className="note"><a href="https://ncase.me/trust/" rel="noreferrer" target="_blank">The Evolution of Trust <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
           <p className="website">Nicky Case</p>
         </div>
+        <hr className="divider" />
+        <div className="row">
+          <p className="note"><a href="https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=8rkjkAuiCbmyHwOw" rel="noreferrer" target="_blank">Essence of Linear Algebra <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+          <p className="website">3Blue1Brown</p>
+        </div>
       </section>
         {/* <div className="row">
           <p className="note"><a href="" rel="noreferrer" target="_blank"> <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
