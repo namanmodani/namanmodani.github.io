@@ -7,7 +7,7 @@ const Picks = () => {
   return (
     <div className="blog-container">
       <section className="section">
-        <p className="section-title"><a href="/#/picks" rel="noreferrer" target="_blank">Internet Picks <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+        <p className="section-title">Internet Picks</p>
         <div className="row">
           <p className="note"><a href="https://www.theguardian.com/society/2016/apr/07/the-sugar-conspiracy-robert-lustig-john-yudkin" rel="noreferrer" target="_blank">The Sugar Conspiracy <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
           <p className="website">Ian Leslie</p>
