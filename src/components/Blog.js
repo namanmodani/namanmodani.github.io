@@ -49,7 +49,7 @@ const Blog = () => {
         </div>
         <hr className="divider" />
         <div className="row">
-          <p className="note"><a href="https://www.palette.build/list/b7e92e89-7a57-4226-af70'auto'22fbbc9dfea" rel="noreferrer" target="_blank">Elite Television <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+          <p className="note"><a href="https://www.palette.build/list/b7e92e89-7a57-4226-af70-222fbbc9dfea" rel="noreferrer" target="_blank">Elite Television <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
           <p className="website">Palette</p>
         </div>
       </section>
