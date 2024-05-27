@@ -1,13 +1,27 @@
-import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Work from './components/Work';
 import Blog from './components/Blog';
 import Picks from './components/Picks';
+import ReactGA from 'react-ga4';
 import './styles/styles.css';
 
+const TRACKING_ID = "G-1STS1V6GRM";
+ReactGA.initialize(TRACKING_ID);
+
+function usePageTracking() {
+  const location = useLocation();
+  
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
+  }, [location]);
+}
+
 function App() {
+  usePageTracking();
+  
   return (
     <Router>
       <div className="container">
