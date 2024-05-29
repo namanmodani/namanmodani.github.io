@@ -1,0 +1,51 @@
+{
+    "experience": [
+      {
+        "company": "LinkedIn",
+        "url": "https://careers.linkedin.com/apm",
+        "position": "Associate Product Manager"
+      },
+      {
+        "company": "Contrary Capital",
+        "url": "https://www.contrary.com/",
+        "position": "Research Fellow"
+      },
+      {
+        "company": "Slack",
+        "url": "https://slack.engineering/unleashing-impact-at-slacks-data-engineering-internship/",
+        "position": "Technical Program Manager"
+      },
+      {
+        "company": "Ericsson",
+        "url": "https://www.ericsson.com/en/careers/student-young-professionals/internships",
+        "position": "Software Engineer"
+      },
+      {
+        "company": "Stanford",
+        "url": "https://namanmodani.github.io/old/pdfs/srs.pdf",
+        "position": "Researcher"
+      }
+    ],
+    "honors": [
+      {
+        "title": "Google Code-in",
+        "url": "https://opensource.googleblog.com/2020/02/announcing-our-google-code-in-2019.html",
+        "achievement": "Grand Prize Winner"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Denotia",
+        "url": "https://solve.mit.edu/challenges/horizonprize/solutions/51857"
+      },
+      {
+        "name": "Sandhi",
+        "url": "https://sandhi-the-connect.github.io/src/"
+      },
+      {
+        "name": "Young Scientists Journal",
+        "url": "https://www.youngscientistsjournal.com/"
+      }
+    ]
+  }
+  
