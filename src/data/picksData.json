@@ -1,5 +1,15 @@
 [
     {
+      "link": "https://www.youtube.com/watch?v=h6fcK_fRYaI",
+      "title": "The Egg",
+      "author": "Kurzgesagt"
+    },
+    {
+      "link": "https://kyletibbitts.com/rate-of-learning-the-most-valuable-startup-compensation-56dddc17fa42", 
+      "title": "Rate of Learning",
+      "author": "Kyle Tibbitts"
+    },
+    {
       "link": "https://www.zocalopublicsquare.org/2011/11/30/how-doctors-die/ideas/nexus/",
       "title": "How Doctors Die",
       "author": "Ken Murray"
@@ -33,6 +43,11 @@
       "link": "https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=8rkjkAuiCbmyHwOw",
       "title": "Essence of Linear Algebra",
       "author": "3Blue1Brown"
+    },
+    { 
+      "//": "https://blog.eladgil.com/p/career-decisions",
+      "//": "https://waitbutwhy.com/2018/04/picking-career.html", 
+      "//": "https://www.youtube.com/watch?v=uaSqh4DiQSw"
     }
 ]
   
