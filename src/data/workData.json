@@ -6,7 +6,7 @@
         "position": "Associate Product Manager"
       },
       {
-        "company": "Contrary Capital",
+        "company": "Contrary VC",
         "url": "https://www.contrary.com/",
         "position": "Research Fellow"
       },
@@ -18,13 +18,8 @@
       {
         "company": "Ericsson",
         "url": "https://www.ericsson.com/en/careers/student-young-professionals/internships",
-        "position": "Software Engineer"
+        "position": "Product Engineer"
       },
-      {
-        "company": "Stanford",
-        "url": "https://namanmodani.github.io/old/pdfs/srs.pdf",
-        "position": "Researcher"
-      }
     ],
     "honors": [
       {
@@ -43,8 +38,8 @@
         "url": "https://sandhi-the-connect.github.io/src/"
       },
       {
-        "name": "Young Scientists Journal",
-        "url": "https://www.youngscientistsjournal.com/"
+        "name": "Association of Computing Machinery",
+        "url": "https://github.com/uclaacm/ai-beginner-w22"
       }
     ]
   }
