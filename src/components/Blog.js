@@ -13,7 +13,7 @@ const Blog = () => {
       <section className="section">
         <p className="section-title">
           <a href="/#/picks" rel="noreferrer">
-            Internet Picks <FontAwesomeIcon icon={faSquareArrowUpRight} />
+            Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
           </a>
         </p>
         {firstFivePicks.map((pick, index) => (
