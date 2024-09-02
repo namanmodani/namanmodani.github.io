@@ -2,14 +2,14 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 import '../styles/styles.css';
-import picksData from '../data/picksData.json'; // Import the JSON data
+import bookmarksData from '../data/bookmarksData.json'; // Import the JSON data
 
-const Picks = () => {
+const Bookmarks = () => {
   return (
     <div className="blog-container">
       <section className="section">
         <p className="section-title">Bookmarks</p>
-        {picksData.map((pick, index) => (
+        {bookmarksData.map((pick, index) => (
           <div key={index}>
             <div className="row">
               <p className="note">
@@ -19,7 +19,7 @@ const Picks = () => {
               </p>
               <p className="website">{pick.author}</p>
             </div>
-            {index < picksData.length - 1 && <hr className="divider" />}
+            {index < bookmarksData.length - 1 && <hr className="divider" />}
           </div>
         ))}
       </section>
@@ -27,4 +27,4 @@ const Picks = () => {
   );
 };
 
-export default Picks;
+export default Bookmarks;

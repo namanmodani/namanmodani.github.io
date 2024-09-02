@@ -2,21 +2,21 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 import '../styles/styles.css';  // Import the CSS file
-import picksData from '../data/picksData.json'; // Import the JSON data
+import bookmarksData from '../data/bookmarksData.json'; // Import the JSON data
 import recsData from '../data/recsData.json'; // Import the JSON data
 
 const Blog = () => {
-  const firstFivePicks = picksData.slice(0, 5); // Get the first 5 items from picksData
+  const firstFiveBookmarks = bookmarksData.slice(0, 5); // Get the first 5 items from bookmarksData
 
   return (
     <div className="blog-container">
       <section className="section">
         <p className="section-title">
-          <a href="/#/picks" rel="noreferrer">
+          <a href="/#/Bookmarks" rel="noreferrer">
             Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
           </a>
         </p>
-        {firstFivePicks.map((pick, index) => (
+        {firstFiveBookmarks.map((pick, index) => (
           <div key={index}>
             <div className="row">
               <p className="note">
@@ -26,7 +26,7 @@ const Blog = () => {
               </p>
               <p className="website">{pick.author}</p>
             </div>
-            {index < firstFivePicks.length - 1 && <hr className="divider" />}
+            {index < firstFiveBookmarks.length - 1 && <hr className="divider" />}
           </div>
         ))}
       </section>

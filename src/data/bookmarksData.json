@@ -1,5 +1,10 @@
 [
     {
+      "link": "https://simonwillison.net/2023/Oct/23/embeddings/",
+      "title": "Embeddings",
+      "author": "Simon Willison"
+    },
+    {
       "link": "https://www.youtube.com/watch?v=h6fcK_fRYaI",
       "title": "The Egg",
       "author": "Kurzgesagt"
@@ -55,14 +60,24 @@
       "author": "Brian Chesky"
     },
     {
-      "link": "https://www.theguardian.com/society/2016/apr/07/the-sugar-conspiracy-robert-lustig-john-yudkin",
-      "title": "The Sugar Conspiracy",
-      "author": "Ian Leslie"
+      "link": "https://fs.blog/david-foster-wallace-this-is-water/",
+      "title": "This is Water",
+      "author": "David Foster Wallace"
+    },
+    {
+      "link": "https://www.cracked.com/blog/6-harsh-truths-that-will-make-you-better-person",
+      "title": "Six Harsh Truths",
+      "author": "Jason Pargin"
     },
     {
       "link": "https://www.joshworth.com/dev/pixelspace/pixelspace_solarsystem.html",
       "title": "If the Moon Were Only 1 Pixel",
       "author": "Josh Worth"
+    },
+    {
+      "link": "https://www.theguardian.com/society/2016/apr/07/the-sugar-conspiracy-robert-lustig-john-yudkin",
+      "title": "The Sugar Conspiracy",
+      "author": "Ian Leslie"
     },
     {
       "link": "https://ncase.me/trust/",

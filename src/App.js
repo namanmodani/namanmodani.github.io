@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Work from './components/Work';
 import Blog from './components/Blog';
-import Picks from './components/Picks';
+import Bookmarks from './components/Bookmarks';
 import ReactGA from 'react-ga4';
 import './styles/styles.css';
 
@@ -36,8 +36,8 @@ function App() {
           <Route path="/blog">
             <Blog />
           </Route>
-          <Route path="/picks">
-            <Picks />
+          <Route path="/Bookmarks">
+            <Bookmarks />
           </Route>
         </Switch>
       </div>
