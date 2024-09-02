@@ -8,7 +8,7 @@ const Picks = () => {
   return (
     <div className="blog-container">
       <section className="section">
-        <p className="section-title">Internet Picks</p>
+        <p className="section-title">Bookmarks</p>
         {picksData.map((pick, index) => (
           <div key={index}>
             <div className="row">
