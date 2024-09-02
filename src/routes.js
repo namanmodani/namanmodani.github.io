@@ -15,7 +15,7 @@ const AppRoutes = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/Bookmarks" element={<Bookmarks />} />
+          <Route path="/bookmarks" element={<Bookmarks />} />
         </Routes>
       </div>
     </Router>

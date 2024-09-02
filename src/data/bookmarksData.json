@@ -1,13 +1,13 @@
 [
     {
-      "link": "https://simonwillison.net/2023/Oct/23/embeddings/",
-      "title": "Embeddings",
-      "author": "Simon Willison"
-    },
-    {
       "link": "https://www.youtube.com/watch?v=h6fcK_fRYaI",
       "title": "The Egg",
       "author": "Kurzgesagt"
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=d0rZDL4lL-4",
+      "title": "How Greenlanders Survive Brutal Winters",
+      "author": "Johnny Harris"
     },
     {
       "link": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
@@ -20,14 +20,14 @@
       "author": "Paul Graham"
     },
     {
-      "link": "https://www.youtube.com/watch?v=d0rZDL4lL-4",
-      "title": "How Greenlanders Survive Brutal Winters",
-      "author": "Johnny Harris"
-    },
-    {
       "link": "https://stratechery.com/2020/playing-on-hard-mode/",
       "title": "Playing on Hard Mode",
       "author": "Ben Thompson"
+    },
+    {
+      "link": "https://simonwillison.net/2023/Oct/23/embeddings/",
+      "title": "Embeddings",
+      "author": "Simon Willison"
     },
     {
       "link": "https://www.lesswrong.com/posts/6hfGNLf4Hg5DXqJCF/a-fable-of-science-and-politics",
