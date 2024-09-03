@@ -12,7 +12,7 @@ const Blog = () => {
     <div className="blog-container">
       <section className="section">
         <p className="section-title">
-          <a href="/#/Bookmarks" rel="noreferrer">
+          <a href="/#/bookmarks" rel="noreferrer">
             Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
           </a>
         </p>
