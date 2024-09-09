@@ -36,7 +36,7 @@ function App() {
           <Route path="/blog">
             <Blog />
           </Route>
-          <Route path="/Bookmarks">
+          <Route path="/bookmarks">
             <Bookmarks />
           </Route>
         </Switch>
