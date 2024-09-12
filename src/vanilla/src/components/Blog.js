@@ -21,8 +21,8 @@ const Blog = () => {
         </div>
         <hr style={{ margin: 'auto', opacity: 0.4 }} />
         <div className="row">
-          <p className="note"><a href="https://www.palette.build/list/b7e92e89-7a57-4226-af70-222fbbc9dfea" rel="noopener" target="_blank">Elite Television <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
-          <p className="website">Palette</p>
+          <p className="note"><a href="/#/tv" rel="noopener" target="_blank">Elite Television <FontAwesomeIcon icon={faSquareArrowUpRight} /></a></p>
+          <p className="website">IMDb</p>
         </div>
       </section>
     </div>

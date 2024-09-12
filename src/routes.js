@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Work from './components/Work';
 import Blog from './components/Blog';
 import Bookmarks from './components/Bookmarks';
+import Television from './components/Television';
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
+          <Route path="/tv" element={<Television />} />
         </Routes>
       </div>
     </Router>

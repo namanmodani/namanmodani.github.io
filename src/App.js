@@ -39,6 +39,9 @@ function App() {
           <Route path="/bookmarks">
             <Bookmarks />
           </Route>
+          <Route path="/tv">
+            <Television />
+          </Route>
         </Switch>
       </div>
     </Router>
