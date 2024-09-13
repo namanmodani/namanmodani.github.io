@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <p>I'm passionate about shaping and shipping meaningful products.</p>
-      <p>I'm spend my days learning. I'm curious about most things (I'm glad I'm not a cat), especially product, engineering, and finance. A big chunk of this learning happens at <a href="https://www.ucla.edu/" rel="noreferrer" target="_blank" className="link-underline">UCLA</a>.</p>
+      <p>I spend my days learning. I'm curious about most things (I'm glad I'm not a cat), especially product, engineering, and finance. A big chunk of this learning happens at <a href="https://www.ucla.edu/" rel="noreferrer" target="_blank" className="link-underline">UCLA</a>.</p>
       <p>Lately, I've been focused on spending my time intentionally. I like to leap off cliffs, camp, and drive. I dance (badly), and listen to old rock and Bollywood classics. I enjoy playing poker and watching sports.</p>
       <p>Reach out to me at modani [dot] naman [at] gmail [dot] com. I'm always up for a good conversation. </p>
 
