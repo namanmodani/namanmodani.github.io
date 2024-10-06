@@ -6,6 +6,8 @@ import Work from './components/Work';
 import Blog from './components/Blog';
 import Bookmarks from './components/Bookmarks';
 import Television from './components/Television';
+import Newsletters from './components/Newsletters';
+import YouTube from './components/Youtube';
 
 const AppRoutes = () => {
   return (
@@ -18,6 +20,8 @@ const AppRoutes = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
           <Route path="/tv" element={<Television />} />
+          <Route path="/newsletters" element={<Newsletters />} />
+          <Route path="/youtube" element={<YouTube />} />
         </Routes>
       </div>
     </Router>

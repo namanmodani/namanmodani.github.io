@@ -8,7 +8,7 @@ const Television = () => {
   return (
     <div className="blog-container">
       <section className="section">
-        <p className="section-title">Elite Television</p>
+        <p className="section-title">Television</p>
         {televisionData.map((pick, index) => (
           <div key={index}>
             <div className="row">

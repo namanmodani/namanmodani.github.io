@@ -7,7 +7,7 @@
     {
       "link": "https://www.imdb.com/title/tt3032476/",
       "title": "Better Call Saul",
-      "author": "Vince Gilligan, Peter Gould"
+      "author": "^ + Peter Gould"
     },
     {
       "link": "https://www.imdb.com/title/tt0141842/",
@@ -21,7 +21,7 @@
     },
     {
       "link": "https://www.imdb.com/title/tt2356777/",
-      "title": "True Detective",
+      "title": "True Detective S1",
       "author": "Nic Pizzolatto"
     },
     {

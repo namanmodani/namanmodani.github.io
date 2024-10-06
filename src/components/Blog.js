@@ -2,42 +2,52 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 import '../styles/styles.css';  // Import the CSS file
-import bookmarksData from '../data/bookmarksData.json'; // Import the JSON data
 import recsData from '../data/recsData.json'; // Import the JSON data
 
 const Blog = () => {
-  const firstFiveBookmarks = bookmarksData.slice(0, 5); // Get the first 5 items from bookmarksData
-
   return (
     <div className="blog-container">
+      {/* Lists section */}
       <section className="section">
-        <p className="section-title">
-          <a href="/#/bookmarks" rel="noreferrer">
-            Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
-          </a>
-        </p>
-        {firstFiveBookmarks.map((pick, index) => (
-          <div key={index}>
-            <div className="row">
-              <p className="note">
-                <a href={pick.link} rel="noreferrer" target="_blank">
-                  {pick.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
-                </a>
-              </p>
-              <p className="website">{pick.author}</p>
-            </div>
-            {index < firstFiveBookmarks.length - 1 && <hr className="divider" />}
-          </div>
-        ))}
-      </section>
-
-      <section className="section">
-        <p className="section-title">Field Notes</p>
+        <p className="section-title">Lists</p>
         <div className="row">
-          <p className="temp-note">This section is a WIP. Let me cook 🧑‍🍳</p>
+          <p className="note">
+            <a href="/#/bookmarks" rel="noreferrer" target="_blank">
+              Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
+            </a>
+          </p>
+        </div>
+        
+        <div className="row">
+          <p className="note">
+            <a href="/#/newsletters" rel="noreferrer" target="_blank">
+              Newsletters <FontAwesomeIcon icon={faSquareArrowUpRight} />
+            </a>
+          </p>
+        </div>
+        
+        <div className="row">
+          <p className="note">
+            <a href="/#/youtube" rel="noreferrer" target="_blank">
+              YouTube Subscriptions <FontAwesomeIcon icon={faSquareArrowUpRight} />
+            </a>
+          </p>
+        </div>
+      </section>
+      
+      <hr className="divider" />
+
+      {/* Writing section */}
+      <section className="section">
+        <p className="section-title">Writing</p>
+        <div className="row">
+          <p className="temp-note">Coming soon.</p>
         </div>
       </section>
 
+      <hr className="divider" />
+
+      {/* Recs section */}
       <section className="section">
         <p className="section-title">Recs</p>
         {recsData.map((rec, index) => (
@@ -50,7 +60,6 @@ const Blog = () => {
               </p>
               <p className="website">{rec.author}</p>
             </div>
-            {index < recsData.length - 1 && <hr className="divider" />}
           </div>
         ))}
       </section>
