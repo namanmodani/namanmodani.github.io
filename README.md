@@ -2,6 +2,6 @@
 
 My corner of the internet. 
 
-[GitHub Repository](https://github.com/namanmodani/namanmodani.github.io) • [Web Application](https://namanmodani.com/)
+[GitHub Repository](https://github.com/namanmodani/namanmodani.github.io) • [Website](https://namanmodani.com/)
 
-Software used: JavaScript, HTML, CSS, GitHub Pages.
+Deployment workflow: `npm run build` > `npm run deploy` > `git add .` > `git commit -m ""` > `git push`
