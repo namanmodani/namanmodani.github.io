@@ -12,7 +12,7 @@ const Blog = () => {
         <p className="section-title">Lists</p>
         <div className="row">
           <p className="note">
-            <a href="/#/bookmarks" rel="noreferrer" target="_blank">
+            <a href="/#/bookmarks" rel="noreferrer" target="_self">
               Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
             </a>
           </p>
@@ -20,7 +20,7 @@ const Blog = () => {
         
         <div className="row">
           <p className="note">
-            <a href="/#/newsletters" rel="noreferrer" target="_blank">
+            <a href="/#/newsletters" rel="noreferrer" target="_self">
               Newsletters <FontAwesomeIcon icon={faSquareArrowUpRight} />
             </a>
           </p>
@@ -28,7 +28,7 @@ const Blog = () => {
         
         <div className="row">
           <p className="note">
-            <a href="/#/youtube" rel="noreferrer" target="_blank">
+            <a href="/#/youtube" rel="noreferrer" target="_self">
               YouTube Subscriptions <FontAwesomeIcon icon={faSquareArrowUpRight} />
             </a>
           </p>
@@ -54,7 +54,7 @@ const Blog = () => {
           <div key={index}>
             <div className="row">
               <p className="note">
-                <a href={rec.link} rel="noreferrer" target="_blank">
+                <a href={rec.link} rel="noreferrer" target="_self">
                   {rec.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
                 </a>
               </p>
