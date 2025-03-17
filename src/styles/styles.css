@@ -21,7 +21,8 @@ body[data-theme="dark"] {
 .container {
     max-width: 450px;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     display: block;   
 }
 
@@ -251,6 +252,7 @@ body[data-theme="dark"] .website {
         width: 75%;
         padding: 10px;
         margin-top: 12%;
+        margin-bottom: 4%;
     }
 
     body {
