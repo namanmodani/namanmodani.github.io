@@ -198,10 +198,12 @@ body[data-theme="dark"] .dark-grey {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-}
+    margin: 15px 0;
+} 
 
 .note {
     flex-basis: 65%;
+    margin: 0;
 }
 
 .temp {
@@ -227,17 +229,6 @@ body[data-theme="dark"] .dark-grey {
     margin-bottom: 20px;
 }
   
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px 0;
-}
-  
-.note {
-    margin: 0;
-}
-  
 .website {
     margin: 0;
     color: #555;
@@ -249,7 +240,7 @@ body[data-theme="dark"] .website {
 
 @media only screen and (max-width: 600px) {
     .container {
-        width: 78%;
+        width: 80%;
         padding: 10px;
         margin-top: 12%;
         margin-bottom: 4%;
