@@ -8,7 +8,7 @@ const Newsletters = () => {
   return (
     <div className="blog-container">
       <section className="section">
-        <p>Newsletter recommendations coming soon.</p>
+        <p>Coming soon.</p>
         {newslettersData.map((pick, index) => (
           <div key={index}>
             <div className="row">

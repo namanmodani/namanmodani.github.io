@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div>
       <p>I'm passionate about shaping and shipping meaningful products.</p>
-      <p>I spend my days learning. I'm curious about most things, especially product, engineering, philosophy, and finance. A big chunk of this learning happens at <a href="https://www.ucla.edu/" rel="noreferrer" target="_blank" className="link-underline">UCLA</a>.</p>
-      <p>Lately, I've been focused on spending my time intentionally. I like to read, write, listen to old music, play poker, travel, and watch sports.</p>
-      <p>I'm always up for a good conversation. Reach out to me at modani [dot] naman [at] gmail [dot] com.</p>
+      <p>I'm curious about most things, especially product, engineering, and philosophy. A big chunk of my learning happens at <a href="https://www.ucla.edu/" rel="noreferrer" target="_blank" className="link-underline">UCLA</a>.</p>
+      <p>I split my time between LA and SF, depending on where life, work, and good people take me. Lately, I've been learning how to (1) spend my time intentionally and (2) build agentic AI.</p>
+      <p>I enjoy reading, writing, poker, travel, sports, and good conversation. If you're up for one, reach out to me at modani [dot] naman [at] gmail [dot] com.</p>
 
       <div style={{ marginTop: '22px' }}></div>
 

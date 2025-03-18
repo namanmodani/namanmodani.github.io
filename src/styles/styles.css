@@ -19,9 +19,9 @@ body[data-theme="dark"] {
 }
 
 .container {
-    max-width: 450px;
+    max-width: 470px;
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 6.5%;
     margin-bottom: 4%;
     display: block;   
 }
