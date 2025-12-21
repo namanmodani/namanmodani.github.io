@@ -18,14 +18,6 @@ const Blog = () => {
             </a>
           </p>
         </div>
-        
-        <div className="row">
-          <p className="note">
-            <a href="/#/newsletters" rel="noreferrer" target="_self">
-              Newsletters <FontAwesomeIcon icon={faSquareArrowUpRight} />
-            </a>
-          </p>
-        </div>
       </section>
       
       <hr className="divider" />
