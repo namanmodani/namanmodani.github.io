@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d3927843.css",
-    "main.js": "/static/js/main.68fda1db.js",
+    "main.js": "/static/js/main.ee0877fa.js",
     "static/media/newsreader-latin-wght-italic.woff2": "/static/media/newsreader-latin-wght-italic.eeccb564d0dcf4f44268.woff2",
     "static/media/newsreader-latin-wght-normal.woff2": "/static/media/newsreader-latin-wght-normal.f30c651d14705c299705.woff2",
     "static/media/newsreader-latin-ext-wght-italic.woff2": "/static/media/newsreader-latin-ext-wght-italic.cd951867c0657e50dad4.woff2",
@@ -20,10 +20,10 @@
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.d4e725bc424dbf53dc36.woff",
     "index.html": "/index.html",
     "main.d3927843.css.map": "/static/css/main.d3927843.css.map",
-    "main.68fda1db.js.map": "/static/js/main.68fda1db.js.map"
+    "main.ee0877fa.js.map": "/static/js/main.ee0877fa.js.map"
   },
   "entrypoints": [
     "static/css/main.d3927843.css",
-    "static/js/main.68fda1db.js"
+    "static/js/main.ee0877fa.js"
   ]
 }
