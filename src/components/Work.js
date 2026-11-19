@@ -1,16 +1,15 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
+import ExternalArrow from './ExternalArrow';
 import data from '../data/workData.json';
 
 const Work = () => {
   return (
     <div className="work-content">
-      <p style={{ fontWeight: 500 }}>Experience</p>
+      <p className="section-title">Experience</p>
       {data.experience.map((item, index) => (
         <p key={index}>
           <a href={item.url} className="source-link" rel="noreferrer" target="_blank">
-            {item.company} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+            {item.company}
           </a>
           <br />
           {item.position}
@@ -19,11 +18,11 @@ const Work = () => {
 
       <hr />
 
-      <p style={{ fontWeight: 500 }}>Honors</p>
+      <p className="section-title">Honors</p>
       {data.honors.map((item, index) => (
         <p key={index}>
           <a href={item.url} className="source-link" rel="noreferrer" target="_blank">
-            {item.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+            {item.title}
           </a>
           <br />
           {item.achievement}
@@ -32,11 +31,11 @@ const Work = () => {
 
       <hr />
 
-      <p style={{ fontWeight: 500 }}>Projects</p>
+      <p className="section-title">Projects</p>
       {data.projects.map((item, index) => (
         <p key={index}>
           <a href={item.url} rel="noreferrer" target="_blank">
-            {item.name} <FontAwesomeIcon icon={faSquareArrowUpRight} className="proj-link" />
+            {item.name}<ExternalArrow />
           </a>
         </p>
       ))}

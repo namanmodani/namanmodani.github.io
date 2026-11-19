@@ -1,27 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
+import ExternalArrow from './ExternalArrow';
 import '../styles/styles.css';  // Import the CSS file
 import recsData from '../data/recsData.json'; // Import the JSON data
 import writingData from '../data/writingData.json'; // Import the JSON data
 
 const Blog = () => {
   return (
-    <div className="blog-container">
-      {/* Lists section */}
-      <section className="section">
-        <p className="section-title">Lists</p>
-        <div className="row">
-          <p className="note">
-            <a href="/#/bookmarks" rel="noreferrer" target="_self">
-              Bookmarks <FontAwesomeIcon icon={faSquareArrowUpRight} />
-            </a>
-          </p>
-        </div>
-      </section>
-      
-      <hr className="divider" />
-
+    <div className="blog-container blog-page">
       {/* Writing section */}
       <section className="section">
         <p className="section-title">Writing</p>
@@ -30,7 +15,7 @@ const Blog = () => {
             <div className="row">
               <p className="note">
                 <a href={rec.link} rel="noreferrer" target="_self">
-                  {rec.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                  {rec.title}<ExternalArrow />
                 </a>
               </p>
               <p className="website">{rec.author}</p>
@@ -49,7 +34,7 @@ const Blog = () => {
             <div className="row">
               <p className="note">
                 <a href={rec.link} rel="noreferrer" target="_self">
-                  {rec.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                  {rec.title}{rec.link.startsWith('http') && <ExternalArrow />}
                 </a>
               </p>
               <p className="website">{rec.author}</p>

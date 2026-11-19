@@ -1,12 +1,10 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
 import '../styles/styles.css';
 import televisionData from '../data/televisionData.json'; // Import the JSON data
 
 const Television = () => {
   return (
-    <div className="blog-container">
+    <div className="blog-container blog-page list-page">
       <section className="section">
         <p className="section-title">Television</p>
         {televisionData.map((pick, index) => (
@@ -14,12 +12,11 @@ const Television = () => {
             <div className="row">
               <p className="note">
                 <a href={pick.link} rel="noreferrer" target="_blank">
-                  {pick.title} <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                  {pick.title}
                 </a>
               </p>
               <p className="website">{pick.author}</p>
             </div>
-            {index < televisionData.length - 1 && <hr className="divider" />}
           </div>
         ))}
       </section>

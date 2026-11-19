@@ -1,11 +1,18 @@
 [
     {
-      "link": "https://app.beliapp.com/lists/namanmodani?utm_medium=profile_link_to_webapp&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0rNyUwsKNBLztfPySwuKdbPS8xNzMvNT0nMywQAE5z%2FNCQAAAA%3D&_branch_match_id=1265128734521922815",
-      "title": "Restaurants"
+        "link": "/#/reads",
+        "title": "Reads"
     },
     {
-      "link": "/#/tv",
-      "title": "Television"    
+        "link": "https://letterboxd.com/namanmodani/",
+        "title": "Film"
+    },
+    {
+        "link": "/#/tv",
+        "title": "Television"
+    },
+    {
+        "link": "https://app.beliapp.com/lists/namanmodani?utm_medium=profile_link_to_webapp&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0rNyUwsKNBLztfPySwuKdbPS8xNzMvNT0nMywQAE5z%2FNCQAAAA%3D&_branch_match_id=1265128734521922815",
+        "title": "Eats"
     }
 ]
-  

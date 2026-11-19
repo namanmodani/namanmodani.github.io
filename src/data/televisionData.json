@@ -1,53 +1,37 @@
 [
     {
-      "link": "https://www.imdb.com/title/tt0903747/", 
-      "title": "Breaking Bad",
-      "author": "Vince Gilligan"
+        "link": "https://www.imdb.com/title/tt0903747/",
+        "title": "Breaking Bad",
+        "author": "Vince Gilligan"
     },
     {
-      "link": "https://www.imdb.com/title/tt3032476/",
-      "title": "Better Call Saul",
-      "author": "^ + Peter Gould"
+        "link": "https://www.imdb.com/title/tt3032476/",
+        "title": "Better Call Saul",
+        "author": "^ + Peter Gould"
     },
     {
-      "link": "https://www.imdb.com/title/tt0141842/",
-      "title": "The Sopranos",
-      "author": "David Chase"
+        "link": "https://www.imdb.com/title/tt0141842/",
+        "title": "The Sopranos",
+        "author": "David Chase"
     },
     {
-      "link": "https://www.imdb.com/title/tt0306414/",
-      "title": "The Wire",
-      "author": "David Simon"
+        "link": "https://www.imdb.com/title/tt0306414/",
+        "title": "The Wire",
+        "author": "David Simon"
     },
     {
-      "link": "https://www.imdb.com/title/tt2356777/",
-      "title": "True Detective S1",
-      "author": "Nic Pizzolatto"
+        "link": "https://www.imdb.com/title/tt2356777/",
+        "title": "True Detective S1",
+        "author": "Nic Pizzolatto"
     },
     {
-      "link": "https://www.imdb.com/title/tt0944947/",
-      "title": "Game of Thrones",
-      "author": "David Benioff"
+        "link": "https://www.imdb.com/title/tt7366338/",
+        "title": "Chernobyl",
+        "author": "Craig Mazin"
     },
     {
-      "link": "https://www.imdb.com/title/tt7366338/",
-      "title": "Chernobyl",
-      "author": "Craig Mazin"
-    },
-    {
-      "link": "https://www.imdb.com/title/tt4158110/",
-      "title": "Mr. Robot",
-      "author": "Sam Esmail"
-    },
-    {
-      "link": "https://www.imdb.com/title/tt0185906/",
-      "title": "Band of Brothers",
-      "author": "Steven Spielberg"
-    },
-    {
-      "link": "https://www.imdb.com/title/tt5753856/",
-      "title": "Dark",
-      "author": "Baran bo Odar"
+        "link": "https://www.imdb.com/title/tt4158110/",
+        "title": "Mr. Robot",
+        "author": "Sam Esmail"
     }
 ]
-  
