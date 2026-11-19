@@ -7,6 +7,7 @@ export const toggleTheme = () => {
 };
 
 export const loadInitialTheme = () => {
-  const savedTheme = localStorage.getItem('theme') || 'light';
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
   document.body.setAttribute('data-theme', savedTheme);
 };

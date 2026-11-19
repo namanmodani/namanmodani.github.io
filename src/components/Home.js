@@ -11,15 +11,15 @@ const Home = () => {
       <p>Generally optimistic, selectively skeptical, and rarely surprised by edge cases.</p>
       <div style={{ marginTop: '22px' }}></div>
 
-      <a href="mailto:modani.naman@gmail.com" rel="noreferrer" target="_blank" className="icon-link">
+      <a href="mailto:modani.naman@gmail.com" aria-label="Email" rel="noreferrer" target="_blank" className="icon-link">
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
 
-      <a href="https://www.linkedin.com/in/namanmodani" rel="noreferrer" target="_blank" className="icon-link">
+      <a href="https://www.linkedin.com/in/namanmodani" aria-label="LinkedIn" rel="noreferrer" target="_blank" className="icon-link">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
 
-      <a href="https://github.com/namanmodani" rel="noreferrer" target="_blank" className="icon-link">
+      <a href="https://github.com/namanmodani" aria-label="GitHub" rel="noreferrer" target="_blank" className="icon-link">
         <FontAwesomeIcon icon={faGithub} />
       </a>
 
