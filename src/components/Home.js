@@ -12,6 +12,7 @@ const Home = () => {
         <span className="separator">/</span>
         <a href="https://www.linkedin.com/in/namanmodani" rel="noreferrer" target="_blank">LinkedIn</a>
       </div>
+
     </div>
   );
 };
