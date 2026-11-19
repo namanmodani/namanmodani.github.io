@@ -11,8 +11,6 @@ const Home = () => {
         <a href="mailto:modani.naman@gmail.com" rel="noreferrer" target="_blank">Email</a>
         <span className="separator">/</span>
         <a href="https://www.linkedin.com/in/namanmodani" rel="noreferrer" target="_blank">LinkedIn</a>
-        <span className="separator">/</span>
-        <a href="https://github.com/namanmodani" rel="noreferrer" target="_blank">GitHub</a>
       </div>
     </div>
   );
