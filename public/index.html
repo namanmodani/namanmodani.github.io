@@ -10,13 +10,11 @@
       content="Naman Modani. Associate Product Manager at LinkedIn. Product, writing, and recommendations."
     />
     <script>
-      // Restores the path after the 404.html redirect and upgrades legacy #/ URLs
+      // Restores the path after the 404.html redirect
       (function (l) {
         if (l.search[1] === '/') {
           var d = l.search.slice(1).split('&').map(function (s) { return s.replace(/~and~/g, '&'); }).join('?');
           window.history.replaceState(null, null, l.pathname.slice(0, -1) + d + l.hash);
-        } else if (l.hash.indexOf('#/') === 0) {
-          window.history.replaceState(null, null, l.hash.slice(1));
         }
       })(window.location);
     </script>

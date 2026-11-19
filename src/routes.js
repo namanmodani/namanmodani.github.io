@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -32,9 +32,7 @@ const AppRoutes = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/reads" element={<Reads />} />
-          <Route path="/essays" element={<Navigate to="/reads" replace />} />
-          <Route path="/bookmarks" element={<Navigate to="/reads" replace />} />
-          <Route path="/tv" element={<Television />} />
+          <Route path="/television" element={<Television />} />
         </Routes>
       </div>
     </Router>
