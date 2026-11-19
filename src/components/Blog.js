@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ExternalArrow from './ExternalArrow';
 import '../styles/styles.css';  // Import the CSS file
 import recsData from '../data/recsData.json'; // Import the JSON data
@@ -33,9 +34,13 @@ const Blog = () => {
           <div key={index}>
             <div className="row">
               <p className="note">
-                <a href={rec.link} rel="noreferrer" target="_self">
-                  {rec.title}{rec.link.startsWith('http') && <ExternalArrow />}
-                </a>
+                {rec.link.startsWith('/') ? (
+                  <Link to={rec.link}>{rec.title}</Link>
+                ) : (
+                  <a href={rec.link} rel="noreferrer" target="_self">
+                    {rec.title}<ExternalArrow />
+                  </a>
+                )}
               </p>
               <p className="website">{rec.author}</p>
             </div>

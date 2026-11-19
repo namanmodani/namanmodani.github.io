@@ -1,6 +1,6 @@
 [
     {
-        "link": "/#/reads",
+        "link": "/reads",
         "title": "Reads"
     },
     {
@@ -8,7 +8,7 @@
         "title": "Film"
     },
     {
-        "link": "/#/tv",
+        "link": "/tv",
         "title": "Television"
     },
     {
