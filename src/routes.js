@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Work from './components/Work';
 import Blog from './components/Blog';
-import Reads from './components/Reads';
+import Internet from './components/Internet';
 import Television from './components/Television';
 
 const isProd = process.env.NODE_ENV === 'production';
@@ -31,7 +31,8 @@ const AppRoutes = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/reads" element={<Reads />} />
+          <Route path="/internet" element={<Internet />} />
+          <Route path="/reads" element={<Navigate to="/internet" replace />} />
           <Route path="/television" element={<Television />} />
         </Routes>
       </div>
